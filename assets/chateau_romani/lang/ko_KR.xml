@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties version="1.0">
+	<comment>Korean (ko_KR) Localization File for Chateau Romani Mod</comment>
+	
+	<entry key="item.chateau_romani.name">성 로마 니</entry>
+	<entry key="item.milk_bottle.name">병에 우유</entry>
+	<entry key="item.fermented_grains.name">발효 곡물</entry>
+	
+    
+</properties>

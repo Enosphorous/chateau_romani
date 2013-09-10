@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties version="1.0">
+	<comment>French (fr_CA) Localization File for Chateau Romani Mod</comment>
+	
+	<entry key="item.chateau_romani.name">Reserva Romi</entry>
+	<entry key="item.milk_bottle.name">Lait en Bouteille</entry>
+	<entry key="item.fermented_grains.name">Grains Fermentés</entry>
+	
+    
+</properties>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties version="1.0">
+	<comment>Chinese (zh_CN) Localization File for Chateau Romani Mod</comment>
+	
+	<entry key="item.chateau_romani.name">城堡羅馬</entry>
+	<entry key="item.milk_bottle.name">瓶裝牛奶</entry>
+	<entry key="item.fermented_grains.name">醅</entry>
+	
+    
+</properties>

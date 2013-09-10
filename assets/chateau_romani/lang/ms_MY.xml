@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties version="1.0">
+	<comment>Malay (ms_MY) Localization File for Chateau Romani Mod</comment>
+	
+	<entry key="item.chateau_romani.name">Pils Romani</entry>
+	<entry key="item.milk_bottle.name">Susu Botol</entry>
+	<entry key="item.fermented_grains.name">Bijirin Ditapai</entry>
+	
+    
+</properties>

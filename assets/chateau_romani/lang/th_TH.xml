@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties version="1.0">
+	<comment>Thai (th_TH) Localization File for Chateau Romani Mod</comment>
+	
+	<entry key="item.chateau_romani.name">ปราสาท โรมัน</entry>
+	<entry key="item.milk_bottle.name">นมดื่มบรรจุขวด</entry>
+	<entry key="item.fermented_grains.name">ธัญพืชหมัก</entry>
+	
+    
+</properties>

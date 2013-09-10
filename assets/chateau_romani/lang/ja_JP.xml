@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties version="1.0">
+	<comment>Japanese (ja_JP) Localization File for Chateau Romani Mod</comment>
+	
+	<entry key="item.chateau_romani.name">シャトーロマ</entry>
+	<entry key="item.milk_bottle.name">ボトル入りミルク</entry>
+	<entry key="item.fermented_grains.name">発酵した穀物</entry>
+	
+    
+</properties>

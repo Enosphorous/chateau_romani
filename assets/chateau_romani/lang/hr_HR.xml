@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties version="1.0">
+	<comment>Croatian (hr_HR) Localization File for Chateau Romani Mod</comment>
+	
+	<entry key="item.chateau_romani.name">Chateau Romani</entry>
+	<entry key="item.milk_bottle.name">Mlijeko u Boci</entry>
+	<entry key="item.fermented_grains.name">Fermentiranih Zrna</entry>
+	
+    
+</properties>

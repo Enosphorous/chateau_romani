@@ -1,0 +1,76 @@
+package enosphorous.chateau_romani.common;
+
+import net.minecraft.item.Item;
+import net.minecraftforge.common.Configuration;
+import net.minecraftforge.common.MinecraftForge;
+import cpw.mods.fml.common.Mod;
+import cpw.mods.fml.common.Mod.Instance;
+import cpw.mods.fml.common.SidedProxy;
+import cpw.mods.fml.common.event.FMLInitializationEvent;
+import cpw.mods.fml.common.event.FMLPostInitializationEvent;
+import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+import cpw.mods.fml.common.event.FMLServerStartingEvent;
+import cpw.mods.fml.common.network.NetworkMod;
+import cpw.mods.fml.common.registry.VillagerRegistry;
+import enosphorous.chateau_romani.handlers.FarmerTradeHandler;
+import enosphorous.chateau_romani.handlers.GenericTradeHandler;
+import enosphorous.chateau_romani.handlers.InteractionHandler;
+import enosphorous.chateau_romani.handlers.LocalizationHandler;
+import enosphorous.chateau_romani.handlers.LootHandler;
+import enosphorous.chateau_romani.handlers.PriestTradeHandler;
+import enosphorous.chateau_romani.handlers.RecipeManager;
+import enosphorous.chateau_romani.handlers.TradeRegistryHandler;
+import enosphorous.chateau_romani.handlers.WitchDropHandler;
+
+@Mod(modid=Reference.MOD_ID, name=Reference.MOD_NAME, version=Reference.MOD_VERSION)
+@NetworkMod(clientSideRequired=true, serverSideRequired=false)
+public class Chateau_Romani {
+
+	@Instance(Reference.MOD_INSTANCE)
+	public static Chateau_Romani instance;
+	
+    @SidedProxy(clientSide = Reference.CLIENT_PATH, serverSide = Reference.SERVER_PATH)
+    public static CommonProxy proxy;
+
+	@Mod.EventHandler
+	public void preInit(FMLPreInitializationEvent event) {
+		
+		if (Reference.FORCE_DEBUG) {
+			System.out.println("[CHATEAU ROMANI] Debug mode is true. Beginning debug. . .");
+		}
+		else if (Reference.FORCE_DEBUG == false)
+		{
+			System.out.println("[CHATEAU ROMANI] Debug mode is false. Release environment detected.");
+		}
+		
+		Items.initialize();
+		if (ChateauConfigLoader.dungeonLoots){
+		LootHandler.generate_loot();
+		}
+		
+		LocalizationHandler.init();
+		MinecraftForge.EVENT_BUS.register(new WitchDropHandler());
+		
+        Configuration config = new Configuration(event.getSuggestedConfigurationFile());
+        ChateauConfigLoader.load(config);
+        
+        RecipeManager.add_recipes();
+        MinecraftForge.EVENT_BUS.register(new InteractionHandler());
+	}
+
+	@Mod.EventHandler
+	public void load(FMLInitializationEvent event) {		
+		
+		Item.glassBottle.setMaxStackSize(1);
+		TradeRegistryHandler.manipulate();
+		
+	}
+
+	@Mod.EventHandler
+	public void postInit(FMLPostInitializationEvent event) {
+	}
+
+	@Mod.EventHandler
+	public void serverStarting(FMLServerStartingEvent event) {
+	}
+}
