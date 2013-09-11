@@ -49,6 +49,15 @@ public class LootHandler {
 		if (Reference.FORCE_DEBUG){
 			System.out.println("[CHATEAU ROMANI] Item 'Fermented Grains' added as loot successfully.");
 		}
+		
+		//Bottled Fire
+		ChestGenHooks.getInfo(ChestGenHooks.DUNGEON_CHEST).addItem(new WeightedRandomChestContent(new ItemStack(Items.bottled_fire), 1, 1, 8));
+		ChestGenHooks.getInfo(ChestGenHooks.VILLAGE_BLACKSMITH).addItem(new WeightedRandomChestContent(new ItemStack(Items.bottled_fire), 1, 1, 8));
+		ChestGenHooks.getInfo(ChestGenHooks.STRONGHOLD_CROSSING).addItem(new WeightedRandomChestContent(new ItemStack(Items.bottled_fire), 1, 1, 8));
+		
+		if (Reference.FORCE_DEBUG){
+			System.out.println("[CHATEAU ROMANI] Item 'Bottled Fire' added as loot successfully.");
+		}
 	
 		
 		if (Reference.FORCE_DEBUG){
