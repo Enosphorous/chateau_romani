@@ -6,8 +6,11 @@
 	<entry key="item.chateau_romani.name">Kasteel Romani</entry>
 	<entry key="item.milk_bottle.name">Gebottelde Melk</entry>
 	<entry key="item.fermented_grains.name">Gegiste Graan</entry>
-	<entry key="item.lonlon_milk.name">LonLon Melk (Volle)</entry>
+	
+	<entry key="item.lonlon_milk_full.name">LonLon Melk (Volle)</entry>
 	<entry key="item.lonlon_milk_half.name">LonLon Melk (Half)</entry>
+	<entry key="item.bottled_fire.name">Gebottelde Vuur</entry>
+	<entry key="item.bottled_ghast.name">Gebottelde Ghast</entry>
 	
     
 </properties>

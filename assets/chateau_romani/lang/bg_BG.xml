@@ -6,6 +6,8 @@
 	<entry key="item.chateau_romani.name">шатото романи</entry>
 	<entry key="item.milk_bottle.name">бутилирана мляко</entry>
 	<entry key="item.fermented_grains.name">ферментирали зърна</entry>
+	<entry key="item.lonlon_milk_full.name">LON LON мляко (пълен)</entry>
+    <entry key="item.lonlon_milk_half.name">LON LON мляко (половина)</entry>
 	
     
 </properties>

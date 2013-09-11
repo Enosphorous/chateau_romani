@@ -15,6 +15,8 @@ public class ChateauConfigLoader {
     public static int     fermented_grainsID                 = 11902;
     public static int     lonlon_milk_fullID                 = 11903;
     public static int     lonlon_milk_halfID                 = 11904;
+    public static int     bottled_fireID                     = 11905;
+    public static int     bottled_ghastID                    = 11906;
     
     public static boolean dungeonLoots                       = true;
     public static boolean newTrades                          = true;
@@ -32,7 +34,9 @@ public class ChateauConfigLoader {
             ChateauConfigLoader.fermented_grainsID = config.get(ChateauConfigLoader.CategoryItemIDs, "fermented grains id", 11902).getInt(11902);
             ChateauConfigLoader.lonlon_milk_fullID = config.get(ChateauConfigLoader.CategoryItemIDs, "full lonlon milk id", 11903).getInt(11903);
             ChateauConfigLoader.lonlon_milk_halfID = config.get(ChateauConfigLoader.CategoryItemIDs, "half full lonlon milk id", 11904).getInt(11904);
-
+            ChateauConfigLoader.bottled_fireID = config.get(ChateauConfigLoader.CategoryItemIDs, "bottled fire id", 11905).getInt(11905);
+            ChateauConfigLoader.bottled_ghastID = config.get(ChateauConfigLoader.CategoryItemIDs, "bottled ghast id", 11906).getInt(11906);
+            
             ChateauConfigLoader.dungeonLoots = config.get(ChateauConfigLoader.CategoryGlobal, "dungeon loot enabled", true).getBoolean(true);
             ChateauConfigLoader.newTrades = config.get(ChateauConfigLoader.CategoryGlobal, "edited villager trades enabled", true).getBoolean(true);
             
@@ -41,6 +45,9 @@ public class ChateauConfigLoader {
     			System.out.println("[CHATEAU ROMANI] Chateau Romani - " + Items.chateau_romani.itemID);
     			System.out.println("[CHATEAU ROMANI] Milk Bottle - " + Items.milk_bottle.itemID);
     			System.out.println("[CHATEAU ROMANI] Fermented Grains - " + Items.fermented_grain.itemID);
+    			System.out.println("[CHATEAU ROMANI] LonLon Milk - " + Items.lonlon_milk_full.itemID + ", " + Items.lonlon_milk_half.itemID);
+    			System.out.println("[CHATEAU ROMANI] Bottled Fire - " + Items.bottled_fire.itemID);
+    			System.out.println("[CHATEAU ROMANI] Bottled Ghast - " + Items.bottled_ghast.itemID);
             }
             
             System.out.println("[CHATEAU ROMANI] Configuration file loaded.");

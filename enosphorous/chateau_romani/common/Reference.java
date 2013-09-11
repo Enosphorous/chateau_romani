@@ -21,8 +21,8 @@ public class Reference {
 	 * Returns the number of --- available in the mod.
 	 */
 	public static final int LANGUAGE_COUNT = 60;
-	public static final int RECIPE_COUNT = 3;
-	public static final int ITEM_COUNT = 5;
+	public static final int RECIPE_COUNT = 4;
+	public static final int ITEM_COUNT = 6;
 	public static final int BLOCK_COUNT = 0;
 	
 }
