@@ -49,7 +49,6 @@ public class ItemLonLonMilk extends Item
         if (!par2World.isRemote)
         {
             par3EntityPlayer.curePotionEffects(par1ItemStack);
-            par3EntityPlayer.addPotionEffect(new PotionEffect(Potion.fireResistance.id, 20 * 30, 1));
             par3EntityPlayer.extinguish();
         }
 

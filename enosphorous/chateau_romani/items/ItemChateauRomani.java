@@ -40,8 +40,8 @@ public class ItemChateauRomani extends Item
         {
             par3EntityPlayer.curePotionEffects(par1ItemStack);
             par3EntityPlayer.addExperience(4);
-            par3EntityPlayer.addPotionEffect(new PotionEffect(Potion.regeneration.id, 20 * 15, 1));
-            par3EntityPlayer.addPotionEffect(new PotionEffect(Potion.resistance.id, 20 * 30, 2));
+            par3EntityPlayer.addPotionEffect(new PotionEffect(Potion.regeneration.id, 20 * 10, 1));
+            par3EntityPlayer.addPotionEffect(new PotionEffect(Potion.resistance.id, 20 * 15, 2));
         }
 
         return par1ItemStack.stackSize <= 0 ? new ItemStack(Item.glassBottle) : par1ItemStack;

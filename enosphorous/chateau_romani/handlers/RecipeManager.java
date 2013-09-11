@@ -19,7 +19,7 @@ public class RecipeManager {
 		GameRegistry.addShapelessRecipe(new ItemStack(Items.chateau_romani), new Object[]{Items.milk_bottle, Items.fermented_grain, Item.sugar});
 
 		//Chateau Romani Recipes
-		GameRegistry.addShapelessRecipe(new ItemStack(Items.lonlon_milk_full), new Object[]{Items.milk_bottle, Item.sugar, Item.blazePowder});
+		GameRegistry.addShapelessRecipe(new ItemStack(Items.lonlon_milk_full), new Object[]{Items.milk_bottle, Item.sugar});
 
 		if (Reference.FORCE_DEBUG){
 			System.out.println("[CHATEAU ROMANI] Found and added " + Reference.RECIPE_COUNT + " recipes.");

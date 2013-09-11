@@ -15,15 +15,5 @@ import net.minecraftforge.event.entity.player.FillBucketEvent;
 
 public class FireHandler
 {
-	EntityPlayer player;
-	public void onFillBucketEvent(FillBucketEvent event)
-	{
-	if(event.world.getBlockId(event.target.blockX, event.target.blockY, event.target.blockZ) == Block.dirt.blockID)
-	{
-	    if (player.getHeldItem().stackSize-- == 1)
-	    {
-	        player.inventory.setInventorySlotContents(player.inventory.currentItem, new ItemStack(Items.bottled_fire));
-	    }
-	}
-	}
+//EVENTS
 }
