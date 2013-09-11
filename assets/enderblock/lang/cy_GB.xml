@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
-<properties version="1.0">
-	<comment>Celtic (cy_GB) Localization File</comment>
-	
-	<entry key="tile.end_block.name">Ender Bloc</entry>
-    
-</properties>
