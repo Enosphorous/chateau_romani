@@ -7,5 +7,10 @@
 	<entry key="item.milk_bottle.name">Villitud Piima</entry>
 	<entry key="item.fermented_grains.name">Fermenteeritud Terad</entry>
 	
+	<entry key="item.lonlon_milk_full.name">Lon Lon Piim (Täis)</entry>
+    <entry key="item.lonlon_milk_half.name">Lon Lon Piim (Pool)</entry>
+    <entry key="item.bottled_fire.name">Villitud tulekahju</entry>
+    <entry key="item.bottled_ghast.name">Villitud Kummitus</entry>
+	
     
 </properties>

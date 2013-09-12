@@ -7,5 +7,10 @@
 	<entry key="item.milk_bottle.name">Pullotetun Maidon</entry>
 	<entry key="item.fermented_grains.name">Käynyt Jyvät</entry>
 	
+	<entry key="item.lonlon_milk_full.name">Lon Lon Maito (Täysi)</entry>
+    <entry key="item.lonlon_milk_half.name">Lon Lon Maito (Puoli)</entry>
+    <entry key="item.bottled_fire.name">Pullotettua Palo</entry>
+    <entry key="item.bottled_ghast.name">Pullotettua Ghastin</entry>
+	
     
 </properties>

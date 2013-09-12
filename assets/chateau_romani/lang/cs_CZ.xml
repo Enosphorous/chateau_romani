@@ -7,5 +7,10 @@
 	<entry key="item.milk_bottle.name">Lahvové Mléka</entry>
 	<entry key="item.fermented_grains.name">Fermentovaných Obilovin</entry>
 	
+	<entry key="item.lonlon_milk_full.name">Lon Lon Mléko (Full)</entry>
+    <entry key="item.lonlon_milk_half.name">Lon Lon Mleko (Půl)</entry>
+    <entry key="item.bottled_fire.name">Balená Oheň</entry>
+    <entry key="item.bottled_ghast.name">Balená Vlkodlaka</entry>
+	
     
 </properties>

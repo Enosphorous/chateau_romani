@@ -7,5 +7,10 @@
 	<entry key="item.milk_bottle.name">Leche Embotellada</entry>
 	<entry key="item.fermented_grains.name">Granos Fermentados</entry>
 	
+	<entry key="item.lonlon_milk_full.name">Lon Lon Leche (Completo)</entry>
+    <entry key="item.lonlon_milk_half.name">Lon Lon Leche (Mitad)</entry>
+    <entry key="item.bottled_fire.name">Fuego Embotellada</entry>
+    <entry key="item.bottled_ghast.name">Fantasma Embotellada</entry>
+	
     
 </properties>

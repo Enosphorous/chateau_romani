@@ -7,5 +7,10 @@
 	<entry key="item.milk_bottle.name">Flaschenmilch</entry>
 	<entry key="item.fermented_grains.name">Fermentgetreide</entry>
 	
+	<entry key="item.lonlon_milk_full.name">Lon Lon Milch (Voll)</entry>
+    <entry key="item.lonlon_milk_half.name">Lon Lon Milch (Die Hälfte)</entry>
+    <entry key="item.bottled_fire.name">Flaschen Feuer</entry>
+    <entry key="item.bottled_ghast.name">Flaschen Geist</entry>
+	
     
 </properties>

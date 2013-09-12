@@ -7,5 +7,10 @@
 	<entry key="item.milk_bottle.name">Enboteligita Lakto</entry>
 	<entry key="item.fermented_grains.name">Fermentita Aknojn</entry>
 	
+	<entry key="item.lonlon_milk_full.name">Lon Lon Lakto (Plena)</entry>
+    <entry key="item.lonlon_milk_half.name">Lon Lon Lakto (Duono)</entry>
+    <entry key="item.bottled_fire.name">Enboteligita Fajro</entry>
+    <entry key="item.bottled_ghast.name">Enboteligita Fantomo</entry>
+	
     
 </properties>

@@ -7,5 +7,11 @@
 	<entry key="item.milk_bottle.name">Lait en Bouteille</entry>
 	<entry key="item.fermented_grains.name">Grains Fermentés</entry>
 	
+	<entry key="item.lonlon_milk_full.name">Lon Lon Lait (Plein)</entry>
+    <entry key="item.lonlon_milk_half.name">Lon Lon Lait (La Moitié)</entry>
+    <entry key="item.bottled_fire.name">Feu en Bouteille</entry>
+    <entry key="item.bottled_ghast.name">Fantôme Bouteille</entry>
+    
+	
     
 </properties>

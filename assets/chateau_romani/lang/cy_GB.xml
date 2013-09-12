@@ -7,5 +7,10 @@
 	<entry key="item.milk_bottle.name">Llaeth Potel</entry>
 	<entry key="item.fermented_grains.name">Grawn Eplesu</entry>
 	
+	<entry key="item.lonlon_milk_full.name">Lon Lon Llaeth (Full)</entry>
+    <entry key="item.lonlon_milk_half.name">Lon Lon Llaeth (Půl)</entry>
+    <entry key="item.bottled_fire.name">Tân Potel</entry>
+    <entry key="item.bottled_ghast.name">Ellyll Potel</entry>
+	
     
 </properties>

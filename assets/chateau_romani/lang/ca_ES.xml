@@ -7,5 +7,10 @@
 	<entry key="item.milk_bottle.name">Llet Embotellada</entry>
 	<entry key="item.fermented_grains.name">Grans Fermentats</entry>
 	
+	<entry key="item.lonlon_milk_full.name">Lon Lon Llet (Complet)</entry>
+    <entry key="item.lonlon_milk_half.name">Lon Lon Llet (Meitat)</entry>
+    <entry key="item.bottled_fire.name">Foc Embotellada</entry>
+    <entry key="item.bottled_ghast.name">Ghoul Embotellada</entry>
+	
     
 </properties>
