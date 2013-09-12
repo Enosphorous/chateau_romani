@@ -7,5 +7,10 @@
 	<entry key="item.milk_bottle.name">Halib Bbottiljat</entry>
 	<entry key="item.fermented_grains.name">Qmuħ Fermentati</entry>
 	
+	<entry key="item.lonlon_milk_full.name">Lon Lon ħalib (sħiħa)</entry>
+    <entry key="item.lonlon_milk_half.name">Lon Lon ħalib (nofs)</entry>
+    <entry key="item.bottled_fire.name">Nar Ibbottiljat</entry>
+    <entry key="item.bottled_ghast.name">Ibbottiljat Ghast</entry>
+	
     
 </properties>

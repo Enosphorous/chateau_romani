@@ -7,5 +7,10 @@
 	<entry key="item.milk_bottle.name">молоко з пляшечки,</entry>
 	<entry key="item.fermented_grains.name">ферментованого зерна</entry>
 	
+	<entry key="item.lonlon_milk_full.name">молочного цукру (повне)</entry>
+    <entry key="item.lonlon_milk_half.name">молочного цукру (половина)</entry>
+    <entry key="item.bottled_fire.name">пляшках вогню</entry>
+    <entry key="item.bottled_ghast.name">пляшках привид</entry>
+	
     
 </properties>

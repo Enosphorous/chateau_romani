@@ -7,5 +7,10 @@
 	<entry key="item.milk_bottle.name">Lapte Imbuteliat</entry>
 	<entry key="item.fermented_grains.name">Boabe Fermentate</entry>
 	
+	<entry key="item.lonlon_milk_full.name">Lon Lon Lapte (Complet)</entry>
+    <entry key="item.lonlon_milk_half.name">Lon Lon Lapte (Jumătate)</entry>
+    <entry key="item.bottled_fire.name">Foc Imbuteliată</entry>
+    <entry key="item.bottled_ghast.name">Imbuteliată Ghast</entry>
+	
     
 </properties>

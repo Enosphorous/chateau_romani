@@ -7,5 +7,10 @@
 	<entry key="item.milk_bottle.name">Mjölk på Flaska</entry>
 	<entry key="item.fermented_grains.name">Fermenterad Spannmål</entry>
 	
+	<entry key="item.lonlon_milk_full.name">Lon Lon Mjölk (Fullständig)</entry>
+    <entry key="item.lonlon_milk_half.name">Lon Lon Mjölk (Halv)</entry>
+    <entry key="item.bottled_fire.name">Buteljerat brand</entry>
+    <entry key="item.bottled_ghast.name">Buteljerat spöke</entry>
+	
     
 </properties>

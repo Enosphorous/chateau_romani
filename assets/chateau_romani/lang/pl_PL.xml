@@ -7,5 +7,10 @@
 	<entry key="item.milk_bottle.name">Mleko w Butelkach</entry>
 	<entry key="item.fermented_grains.name">Sfermentowane Ziarna</entry>
 	
+	<entry key="item.lonlon_milk_full.name">Lon Lon mleko (pełny)</entry>
+    <entry key="item.lonlon_milk_half.name">Lon Lon mleko (połowa)</entry>
+    <entry key="item.bottled_fire.name">Fire Butelkowana</entry>
+    <entry key="item.bottled_ghast.name">Duch Butelkowana</entry>
+	
     
 </properties>

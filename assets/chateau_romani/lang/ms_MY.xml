@@ -7,5 +7,10 @@
 	<entry key="item.milk_bottle.name">Susu Botol</entry>
 	<entry key="item.fermented_grains.name">Bijirin Ditapai</entry>
 	
+	<entry key="item.lonlon_milk_full.name">Lon Lon Susu (Penuh)</entry>
+    <entry key="item.lonlon_milk_half.name">Lon Lon Susu (Setengah)</entry>
+    <entry key="item.bottled_fire.name">Api Botol</entry>
+    <entry key="item.bottled_ghast.name">Hantu Botol</entry>
+	
     
 </properties>

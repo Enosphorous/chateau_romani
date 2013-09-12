@@ -7,5 +7,10 @@
 	<entry key="item.milk_bottle.name">Leite Engarrafado</entry>
 	<entry key="item.fermented_grains.name">Grãos Fermentados</entry>
 	
+	<entry key="item.lonlon_milk_full.name">Lon Lon Leite (Completo)</entry>
+    <entry key="item.lonlon_milk_half.name">Lon Lon Leite (Metade)</entry>
+    <entry key="item.bottled_fire.name">Fogo Engarrafada</entry>
+    <entry key="item.bottled_ghast.name">Fantasma Engarrafado</entry>
+	
     
 </properties>

@@ -7,5 +7,10 @@
 	<entry key="item.milk_bottle.name">sữa đóng chai</entry>
 	<entry key="item.fermented_grains.name">Ngũ cốc lên men</entry>
 	
+	<entry key="item.lonlon_milk_full.name">Dường sữa (đầy đủ)</entry>
+    <entry key="item.lonlon_milk_half.name">Dường sữa (một nửa)</entry>
+    <entry key="item.bottled_fire.name">Lửa đóng chai</entry>
+    <entry key="item.bottled_ghast.name">Ma dóng chai</entry>
+	
     
 </properties>

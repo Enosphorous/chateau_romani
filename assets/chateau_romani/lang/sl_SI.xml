@@ -7,5 +7,10 @@
 	<entry key="item.milk_bottle.name">Ustekleničeno Mleko</entry>
 	<entry key="item.fermented_grains.name">Fermentirana Zrna</entry>
 	
+	<entry key="item.lonlon_milk_full.name">Lon Lon Mlieko (Plný)</entry>
+    <entry key="item.lonlon_milk_half.name">Lon Lon Mlieko (Polovica)</entry>
+    <entry key="item.bottled_fire.name">Fľaškové Oheň</entry>
+    <entry key="item.bottled_ghast.name">Fľaškové Duch</entry>
+	
     
 </properties>

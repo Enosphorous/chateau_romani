@@ -7,5 +7,10 @@
 	<entry key="item.milk_bottle.name">병에 우유</entry>
 	<entry key="item.fermented_grains.name">발효 곡물</entry>
 	
+	<entry key="item.lonlon_milk_full.name">경도 경도 우유 (전체)</entry>
+    <entry key="item.lonlon_milk_half.name">경도 경도 우유 (반)</entry>
+    <entry key="item.bottled_fire.name">병에 불</entry>
+    <entry key="item.bottled_ghast.name">병에 유령</entry>
+	
     
 </properties>

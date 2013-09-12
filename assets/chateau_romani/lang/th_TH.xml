@@ -7,5 +7,10 @@
 	<entry key="item.milk_bottle.name">นมดื่มบรรจุขวด</entry>
 	<entry key="item.fermented_grains.name">ธัญพืชหมัก</entry>
 	
+	<entry key="item.lonlon_milk_full.name">นมน้ำตาล (เต็ม)</entry>
+    <entry key="item.lonlon_milk_half.name">นมน้ำตาล (ครึ่ง)</entry>
+    <entry key="item.bottled_fire.name">ไฟไหม้ดื่มบรรจุขวด</entry>
+    <entry key="item.bottled_ghast.name">ผีดื่มบรรจุขวด</entry>
+	
     
 </properties>

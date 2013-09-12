@@ -7,5 +7,10 @@
 	<entry key="item.milk_bottle.name">Flasker Melk</entry>
 	<entry key="item.fermented_grains.name">Fermentert Korn</entry>
 	
+	<entry key="item.lonlon_milk_full.name">Lon Lon melk (fullt)</entry>
+    <entry key="item.lonlon_milk_half.name">Lon Lon melk (halvparten)</entry>
+    <entry key="item.bottled_fire.name">Flaskevann brann</entry>
+    <entry key="item.bottled_ghast.name">Flaskevann spøkelse</entry>
+	
     
 </properties>

@@ -7,5 +7,10 @@
 	<entry key="item.milk_bottle.name">ჩამოსხმული რძე</entry>
 	<entry key="item.fermented_grains.name">ფერმენტირებული მარცვალი</entry>
 	
+	<entry key="item.lonlon_milk_full.name">შაქარი რძის (სრული)</entry>
+    <entry key="item.lonlon_milk_half.name">შაქარი რძის (ნახევარი)</entry>
+    <entry key="item.bottled_fire.name">ბოთლის ცეცხლი</entry>
+    <entry key="item.bottled_ghast.name">ბოთლის მოჩვენება</entry>
+	
     
 </properties>

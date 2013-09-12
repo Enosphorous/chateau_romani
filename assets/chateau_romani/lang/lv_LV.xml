@@ -7,5 +7,10 @@
 	<entry key="item.milk_bottle.name">Pudelēs Piens</entry>
 	<entry key="item.fermented_grains.name">Raudzēti Graudi</entry>
 	
+	<entry key="item.lonlon_milk_full.name">Lon Lon Piens (Pilnībā)</entry>
+    <entry key="item.lonlon_milk_half.name">Lon Lon Piena (Puse)</entry>
+    <entry key="item.bottled_fire.name">Pudelēs Uguns</entry>
+    <entry key="item.bottled_ghast.name">Pudelēs Spoku</entry>
+	
     
 </properties>

@@ -7,5 +7,10 @@
 	<entry key="item.milk_bottle.name">瓶裝牛奶</entry>
 	<entry key="item.fermented_grains.name">醅</entry>
 	
+	<entry key="item.lonlon_milk_full.name">糖牛奶（滿）</entry>
+    <entry key="item.lonlon_milk_half.name">糖奶（半）</entry>
+    <entry key="item.bottled_fire.name">瓶裝火</entry>
+    <entry key="item.bottled_ghast.name">瓶裝鬼</entry>
+	
     
 </properties>

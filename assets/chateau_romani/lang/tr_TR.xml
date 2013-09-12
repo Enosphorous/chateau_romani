@@ -7,5 +7,10 @@
 	<entry key="item.milk_bottle.name">Sişe Süt</entry>
 	<entry key="item.fermented_grains.name">Fermente Tahıl</entry>
 	
+	<entry key="item.lonlon_milk_full.name">Lon Lon Süt (Tam)</entry>
+    <entry key="item.lonlon_milk_half.name">Lon Lon Süt (Yarım)</entry>
+    <entry key="item.bottled_fire.name">Sişe Yangın</entry>
+    <entry key="item.bottled_ghast.name">Sişe Hayalet</entry>
+	
     
 </properties>

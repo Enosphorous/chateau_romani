@@ -7,5 +7,10 @@
 	<entry key="item.milk_bottle.name">молоко из бутылочки</entry>
 	<entry key="item.fermented_grains.name">ферментированного зерна</entry>
 	
+	<entry key="item.lonlon_milk_full.name">долгота долгота молоко (полный)</entry>
+    <entry key="item.lonlon_milk_half.name">долгота долгота молоко (половина)</entry>
+    <entry key="item.bottled_fire.name">бутылках огня</entry>
+    <entry key="item.bottled_ghast.name">бутылках призрак</entry>
+	
     
 </properties>
