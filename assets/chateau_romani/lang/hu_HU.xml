@@ -7,5 +7,10 @@
 	<entry key="item.milk_bottle.name">Yveges Tejet</entry>
 	<entry key="item.fermented_grains.name">Fermentált Gabona</entry>
 	
+	<entry key="item.lonlon_milk_full.name">Lon Lon Tej (Teljesen)</entry>
+    <entry key="item.lonlon_milk_half.name">Lon Lon Tej (Fél)</entry>
+    <entry key="item.bottled_fire.name">Palackozott Tűz</entry>
+    <entry key="item.bottled_ghast.name">Palackozott Szellem</entry>
+	
     
 </properties>

@@ -7,5 +7,10 @@
 	<entry key="item.milk_bottle.name">Flöskur Mjólk</entry>
 	<entry key="item.fermented_grains.name">Gerjaðar Korn</entry>
 	
+	<entry key="item.lonlon_milk_full.name">Lon Lon Mjólk (Fullur)</entry>
+    <entry key="item.lonlon_milk_half.name">Lon Lon Mjólk (Helmingur)</entry>
+    <entry key="item.bottled_fire.name">Flöskur Eldur</entry>
+    <entry key="item.bottled_ghast.name">Flöskur Draugur</entry>
+	
     
 </properties>

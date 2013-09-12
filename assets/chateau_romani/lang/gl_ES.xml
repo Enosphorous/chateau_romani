@@ -7,5 +7,11 @@
 	<entry key="item.milk_bottle.name">Leite Envasado</entry>
 	<entry key="item.fermented_grains.name">Grans Fermentados</entry>
 	
+	<entry key="item.lonlon_milk_full.name">Lon Lon Bainne (Iomlán)</entry>
+    <entry key="item.lonlon_milk_half.name">Lon Lon Bainne (Leath)</entry>
+    <entry key="item.bottled_fire.name">Tine i Mbuidéil</entry>
+    <entry key="item.bottled_ghast.name">Buidéalaithe Ghast</entry>
+    
+	
     
 </properties>

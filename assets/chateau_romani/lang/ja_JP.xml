@@ -7,5 +7,10 @@
 	<entry key="item.milk_bottle.name">ボトル入りミルク</entry>
 	<entry key="item.fermented_grains.name">発酵した穀物</entry>
 	
+	<entry key="item.lonlon_milk_full.name">砂糖ミルク（フル）</entry>
+    <entry key="item.lonlon_milk_half.name">砂糖ミルク（ハーフ）</entry>
+    <entry key="item.bottled_fire.name">ボトル入り火</entry>
+    <entry key="item.bottled_ghast.name">瓶詰めゴースト</entry>
+	
     
 </properties>

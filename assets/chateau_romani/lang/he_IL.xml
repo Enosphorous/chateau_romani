@@ -7,5 +7,11 @@
 	<entry key="item.milk_bottle.name">חלב בבקבוקים</entry>
 	<entry key="item.fermented_grains.name">דגנים מותססים</entry>
 	
+	<entry key="item.lonlon_milk_full.name">חלב לון לון (מלא)</entry>
+    <entry key="item.lonlon_milk_half.name">חלב לון לון (מחצית)</entry>
+    <entry key="item.bottled_fire.name">אש בקבוקים</entry>
+    <entry key="item.bottled_ghast.name">בקבוקי מבעיתן</entry>
+    
+	
     
 </properties>

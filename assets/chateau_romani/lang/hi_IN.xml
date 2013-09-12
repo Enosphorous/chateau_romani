@@ -7,5 +7,10 @@
 	<entry key="item.milk_bottle.name">बोतलबंद दूध</entry>
 	<entry key="item.fermented_grains.name">किण्वित अनाज</entry>
 	
+	<entry key="item.lonlon_milk_full.name">लंदन लंदन दूध (पूर्ण)</entry>
+    <entry key="item.lonlon_milk_half.name">लंदन लंदन दूध (आधा)</entry>
+    <entry key="item.bottled_fire.name">बोतलबंद आग</entry>
+    <entry key="item.bottled_ghast.name">बोतलबंद भूत</entry>
+	
     
 </properties>

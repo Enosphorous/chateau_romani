@@ -7,5 +7,10 @@
 	<entry key="item.milk_bottle.name">Շշալցված կաթ</entry>
 	<entry key="item.fermented_grains.name">ֆերմենտացված հատիկներ</entry>
 	
+	<entry key="item.lonlon_milk_full.name">Lon Lon կաթ (լրիվ)</entry>
+    <entry key="item.lonlon_milk_half.name">Lon Lon կաթ (կես)</entry>
+    <entry key="item.bottled_fire.name">շշալցված Կրակ</entry>
+    <entry key="item.bottled_ghast.name">շշալցված ուրվական</entry>
+	
     
 </properties>

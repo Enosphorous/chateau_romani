@@ -7,5 +7,10 @@
 	<entry key="item.milk_bottle.name">Latte in Bottiglia</entry>
 	<entry key="item.fermented_grains.name">Cereali Fermentati</entry>
 	
+	<entry key="item.lonlon_milk_full.name">Lon Lon Latte (Completo)</entry>
+    <entry key="item.lonlon_milk_half.name">Lon Lon Latte (Metà)</entry>
+    <entry key="item.bottled_fire.name">Incendio in Bottiglia</entry>
+    <entry key="item.bottled_ghast.name">Fantasma in Bottiglia</entry>
+	
     
 </properties>

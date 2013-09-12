@@ -7,5 +7,10 @@
 	<entry key="item.milk_bottle.name">Mlijeko u Boci</entry>
 	<entry key="item.fermented_grains.name">Fermentiranih Zrna</entry>
 	
+	<entry key="item.lonlon_milk_full.name">Lon Lon Mlijeko (Pun)</entry>
+    <entry key="item.lonlon_milk_half.name">Lon Lon Mlijeko (Pola)</entry>
+    <entry key="item.bottled_fire.name">Bocama Požara</entry>
+    <entry key="item.bottled_ghast.name">Bocama Zloduh</entry>
+	
     
 </properties>
