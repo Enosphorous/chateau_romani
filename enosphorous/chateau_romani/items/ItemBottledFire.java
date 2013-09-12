@@ -2,6 +2,7 @@ package enosphorous.chateau_romani.items;
 
 import net.minecraft.block.Block;
 import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.EnumRarity;
 import net.minecraft.item.Item;
@@ -14,8 +15,11 @@ import enosphorous.chateau_romani.common.Reference;
 public class ItemBottledFire extends Item
 {
 	
+    
+    /** The ID of the block the reed will spawn when used from inventory bar. */
+    private int spawnID;
 	
-    public ItemBottledFire(int par1) {
+    public ItemBottledFire(int par1, Block par2Block) {
 		super(par1);
 		
 		this.setCreativeTab(CreativeTabs.tabBrewing);
@@ -23,15 +27,7 @@ public class ItemBottledFire extends Item
 		this.setUnlocalizedName("bottled_fire");
 		this.func_111206_d(Reference.MOD_ID + ":" + this.getUnlocalizedName());
 		this.setContainerItem(Item.glassBottle);
+		this.spawnID = par2Block.blockID;
 	}
     
-    @SideOnly(Side.CLIENT)
-
-    /**
-     * Return an item rarity from EnumRarity
-     */
-    public EnumRarity getRarity(ItemStack par1ItemStack)
-    {
-        return EnumRarity.epic;
-    }
 }

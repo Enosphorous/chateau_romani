@@ -11,7 +11,7 @@ public class WitchDropHandler {
 	public static double rand;
 	
 	@ForgeSubscribe
-	public void onEntityDrop(LivingDropsEvent event) {
+	public void onEntityDrop1(LivingDropsEvent event) {
 		if (event.source.getDamageType().equals("player")) { 
 			rand = Math.random();
 			if (event.entityLiving instanceof EntityWitch) {
@@ -23,12 +23,36 @@ public class WitchDropHandler {
 	}
 	
 	@ForgeSubscribe
-	public void onDrop(LivingDropsEvent event) {
+	public void onEntityDrop2(LivingDropsEvent event) {
 		if (event.source.getDamageType().equals("player")) { 
 			rand = Math.random();
 			if (event.entityLiving instanceof EntityWitch) {
 				if (rand < 0.3D) { 
 					event.entityLiving.dropItem(Items.milk_bottle.itemID, 1);
+				}
+			}
+		}
+	}
+	
+	@ForgeSubscribe
+	public void onEntityDrop3(LivingDropsEvent event) {
+		if (event.source.getDamageType().equals("player")) { 
+			rand = Math.random();
+			if (event.entityLiving instanceof EntityWitch) {
+				if (rand < 0.1D) { 
+					event.entityLiving.dropItem(Items.bottled_fire.itemID, 1);
+				}
+			}
+		}
+	}
+	
+	@ForgeSubscribe
+	public void onEntityDrop4(LivingDropsEvent event) {
+		if (event.source.getDamageType().equals("player")) { 
+			rand = Math.random();
+			if (event.entityLiving instanceof EntityWitch) {
+				if (rand < 0.03D) { 
+					event.entityLiving.dropItem(Items.bottled_ghast.itemID, 1);
 				}
 			}
 		}

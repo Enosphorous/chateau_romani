@@ -24,19 +24,17 @@ public class ItemLonLonMilk extends Item
  */
 	public static Item container;
 	public static String variant;
-	public static int numeral;
 	
 	
-    public ItemLonLonMilk(int par1, Item par2, String par3, int par4) {
+    public ItemLonLonMilk(int par1, Item par2, String par3) {
 		super(par1);
 		
 		this.setCreativeTab(CreativeTabs.tabFood);
 		this.setMaxStackSize(1);
 		this.container = par2;
 		this.variant = par3;
-		this.numeral = par4;
 		this.setUnlocalizedName("lonlon_milk" + "_" + variant);
-		this.func_111206_d(Reference.MOD_ID + ":" + this.getUnlocalizedName() + "_" + numeral);
+		this.func_111206_d(Reference.MOD_ID + ":" + this.getUnlocalizedName());
 	}
 
 	public ItemStack onEaten(ItemStack par1ItemStack, World par2World, EntityPlayer par3EntityPlayer)

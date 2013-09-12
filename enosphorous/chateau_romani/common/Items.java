@@ -1,5 +1,6 @@
 package enosphorous.chateau_romani.common;
 
+import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import enosphorous.chateau_romani.items.ItemBottledFire;
 import enosphorous.chateau_romani.items.ItemBottledGhast;
@@ -23,9 +24,9 @@ public class Items {
 		chateau_romani = new ItemChateauRomani(ChateauConfigLoader.chateau_romaniID);
 		milk_bottle = new ItemMilkBottle(ChateauConfigLoader.milk_bottleID);
 		fermented_grain = new ItemFermentedGrains(ChateauConfigLoader.fermented_grainsID);
-		lonlon_milk_half = new ItemLonLonMilk(ChateauConfigLoader.lonlon_milk_halfID, Item.glassBottle, "half", 0);
-		lonlon_milk_full = new ItemLonLonMilk(ChateauConfigLoader.lonlon_milk_fullID, lonlon_milk_half, "full", 1);
-		bottled_fire = new ItemBottledFire(ChateauConfigLoader.bottled_fireID);
+		lonlon_milk_half = new ItemLonLonMilk(ChateauConfigLoader.lonlon_milk_halfID, Item.glassBottle, "half");
+		lonlon_milk_full = new ItemLonLonMilk(ChateauConfigLoader.lonlon_milk_fullID, lonlon_milk_half, "full");
+		bottled_fire = new ItemBottledFire(ChateauConfigLoader.bottled_fireID, Block.fire);
 		bottled_ghast = new ItemBottledGhast(ChateauConfigLoader.bottled_ghastID);
 		
 		if (Reference.FORCE_DEBUG) {
@@ -35,6 +36,7 @@ public class Items {
 			System.out.println("[CHATEAU ROMANI] Fermented grains added.");
 			System.out.println("[CHATEAU ROMANI] LonLon Milk added.");
 			System.out.println("[CHATEAU ROMANI] Bottled Fire added.");
+			System.out.println("[CHATEAU ROMANI] Bottled Ghast added.");
 
 			System.out.println("[CHATEAU ROMANI] Found and added " + Reference.ITEM_COUNT + " items.");
 			System.out.println("[CHATEAU ROMANI] Found and added " + Reference.BLOCK_COUNT + " blocks.");
