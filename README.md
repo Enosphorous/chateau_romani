@@ -1,3 +1,7 @@
+## Chateau Romani
+
+- This mod is a Legend of Zelda themed expansion to the drinks in Minecraft. 
+
 ## Authors
 
 - **Enosphorous** - Creator, coder, graphic artist, translator, inspirational, etc.
@@ -12,7 +16,7 @@
       
 ## Terms of Use
 
-- You may use any part of this source code, so long as this mod is not copied entirely. Give credit if you use more than just snippets of code, please. I'd appreciate being notified of use of this source code, for personal purposes. This mod serves as a Legend of Zelda themed beverage expansion for Minecraft.
+- You may use any part of this source code, so long as this mod is not copied entirely. Give credit if you use more than just snippets of code, please. I'd appreciate being notified of use of this source code, for personal purposes.
 
 ## Languages
 
