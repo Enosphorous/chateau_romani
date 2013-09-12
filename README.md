@@ -8,7 +8,7 @@
 
 ## Credits
 
-- **SynthTones** - Wrote FireHandler, which MAJORLY contributed to version 0.0.2. 
+- **SynthTones** - Helped A LOT with FireHandler.
 
 ## Changelog
        Version 0.0.1
