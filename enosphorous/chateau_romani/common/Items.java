@@ -7,6 +7,7 @@ import enosphorous.chateau_romani.items.ItemBottledGhast;
 import enosphorous.chateau_romani.items.ItemChateauRomani;
 import enosphorous.chateau_romani.items.ItemFermentedGrains;
 import enosphorous.chateau_romani.items.ItemLonLonMilk;
+import enosphorous.chateau_romani.items.ItemLonLonMilkHalf;
 import enosphorous.chateau_romani.items.ItemMilkBottle;
 
 public class Items {
@@ -24,8 +25,8 @@ public class Items {
 		chateau_romani = new ItemChateauRomani(ChateauConfigLoader.chateau_romaniID);
 		milk_bottle = new ItemMilkBottle(ChateauConfigLoader.milk_bottleID);
 		fermented_grain = new ItemFermentedGrains(ChateauConfigLoader.fermented_grainsID);
-		lonlon_milk_half = new ItemLonLonMilk(ChateauConfigLoader.lonlon_milk_halfID, Item.glassBottle, "half");
-		lonlon_milk_full = new ItemLonLonMilk(ChateauConfigLoader.lonlon_milk_fullID, lonlon_milk_half, "full");
+		lonlon_milk_half = new ItemLonLonMilkHalf(ChateauConfigLoader.lonlon_milk_halfID, "half");
+		lonlon_milk_full = new ItemLonLonMilk(ChateauConfigLoader.lonlon_milk_fullID, "full");
 		bottled_fire = new ItemBottledFire(ChateauConfigLoader.bottled_fireID, Block.fire);
 		bottled_ghast = new ItemBottledGhast(ChateauConfigLoader.bottled_ghastID);
 		

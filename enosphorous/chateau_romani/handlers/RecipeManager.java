@@ -19,7 +19,7 @@ public class RecipeManager {
 		GameRegistry.addShapelessRecipe(new ItemStack(Items.chateau_romani), new Object[]{Items.milk_bottle, Items.fermented_grain, Item.sugar});
 
 		//Chateau Romani Recipes
-		GameRegistry.addShapelessRecipe(new ItemStack(Items.lonlon_milk_full), new Object[]{Items.milk_bottle, Item.sugar});
+		GameRegistry.addShapelessRecipe(new ItemStack(Items.lonlon_milk_full), new Object[]{Items.milk_bottle, Item.sugar, Item.magmaCream});
 		
 		//Bottled Ghast
 		GameRegistry.addSmelting(Item.ghastTear.itemID, new ItemStack(Items.bottled_ghast), 0.4F);

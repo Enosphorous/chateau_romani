@@ -16,7 +16,7 @@ import cpw.mods.fml.relauncher.SideOnly;
 import enosphorous.chateau_romani.common.Items;
 import enosphorous.chateau_romani.common.Reference;
 
-public class ItemLonLonMilk extends Item
+public class ItemLonLonMilkHalf extends Item
 {
 
 /**
@@ -25,7 +25,7 @@ public class ItemLonLonMilk extends Item
 	public static String variant;
 	
 	
-    public ItemLonLonMilk(int par1, String par2) {
+    public ItemLonLonMilkHalf(int par1, String par2) {
 		super(par1);
 		
 		this.setCreativeTab(CreativeTabs.tabFood);
@@ -48,7 +48,7 @@ public class ItemLonLonMilk extends Item
             par3EntityPlayer.extinguish();
         }
 
-        return par1ItemStack.stackSize <= 0 ? new ItemStack(Items.lonlon_milk_half) : par1ItemStack;
+        return par1ItemStack.stackSize <= 0 ? new ItemStack(Item.glassBottle) : par1ItemStack;
     }
 	
 	 /**
