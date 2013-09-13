@@ -11,8 +11,10 @@ import net.minecraft.potion.Potion;
 import net.minecraft.potion.PotionEffect;
 import net.minecraft.world.World;
 import enosphorous.chateau_romani.common.Reference;
+import enosphorous.chateau_romani.handlers.EnumDrinkType;
+import enosphorous.chateau_romani.handlers.IDrinkType;
 
-public class ItemMilkBottle extends Item
+public class ItemMilkBottle extends Item implements IDrinkType
 {
 
 
@@ -67,5 +69,11 @@ public class ItemMilkBottle extends Item
         par3EntityPlayer.setItemInUse(par1ItemStack, this.getMaxItemUseDuration(par1ItemStack));
         return par1ItemStack;
     }
+
+	@Override
+	public EnumDrinkType getDrinkType(World world, int x, int y, int z) {
+
+		return EnumDrinkType.Milk;
+	}
 
 }

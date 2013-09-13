@@ -11,8 +11,10 @@ import net.minecraft.world.World;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import enosphorous.chateau_romani.common.Reference;
+import enosphorous.chateau_romani.handlers.EnumDrinkType;
+import enosphorous.chateau_romani.handlers.IDrinkType;
 
-public class ItemBottledGhast extends Item
+public class ItemBottledGhast extends Item implements IDrinkType
 {
 	
 	
@@ -24,6 +26,7 @@ public class ItemBottledGhast extends Item
 		this.setUnlocalizedName("bottled_ghast");
 		this.func_111206_d(Reference.MOD_ID + ":" + this.getUnlocalizedName());
 		this.setContainerItem(Item.glassBottle);
+
 	}
     
     @SideOnly(Side.CLIENT)
@@ -35,5 +38,11 @@ public class ItemBottledGhast extends Item
     {
         return EnumRarity.rare;
     }
+
+	@Override
+	public EnumDrinkType getDrinkType(World world, int x, int y, int z) {
+
+		return EnumDrinkType.Harmful;
+	}
 
 }

@@ -12,8 +12,10 @@ import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import enosphorous.chateau_romani.common.Items;
 import enosphorous.chateau_romani.common.Reference;
+import enosphorous.chateau_romani.handlers.EnumDrinkType;
+import enosphorous.chateau_romani.handlers.IDrinkType;
 
-public class ItemBottledFire extends Item
+public class ItemBottledFire extends Item implements IDrinkType
 {
 	
     
@@ -110,5 +112,11 @@ public class ItemBottledFire extends Item
             return true;
         }
     }
+
+	@Override
+	public EnumDrinkType getDrinkType(World world, int x, int y, int z) {
+
+		return EnumDrinkType.Inedible;
+	}
     
 }
