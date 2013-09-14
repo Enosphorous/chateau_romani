@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties version="1.0">
-	<comment>Irish (ga_IE) Localization File for Chateau Romani Mod</comment>
+	<comment>Portuguese (gl_ES) Localization File for Chateau Romani Mod</comment>
 	
 	<entry key="item.chateau_romani.name">Castelo Romani</entry>
 	<entry key="item.milk_bottle.name">Leite Envasado</entry>
@@ -11,6 +11,7 @@
     <entry key="item.lonlon_milk_half.name">Lon Lon Bainne (Leath)</entry>
     <entry key="item.bottled_fire.name">Tine i Mbuidéil</entry>
     <entry key="item.bottled_ghast.name">Buidéalaithe Ghast</entry>
+    <entry key="item.ghastly_brew.name">Bebida Fantasmagórica</entry>
     
 	
     

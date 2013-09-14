@@ -1,3 +1,4 @@
+
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties version="1.0">
@@ -11,6 +12,6 @@
     <entry key="item.lonlon_milk_half.name">Лон Лон млеко (пола)</entry>
     <entry key="item.bottled_fire.name">флаширана пожара</entry>
     <entry key="item.bottled_ghast.name">флаширана Гхост</entry>
-	
+	<entry key="item.ghastly_brew.name">сабластан варити</entry>
     
 </properties>

@@ -15,7 +15,7 @@ public class Reference {
 	 * Forced debug mode?
 	 * Should always be false on release.
 	 */
-	public static final boolean FORCE_DEBUG = true;
+	public static final boolean FORCE_DEBUG = false;
 	
 	/**
 	 * Returns the number of --- available in the mod.

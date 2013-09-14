@@ -6,6 +6,7 @@ import enosphorous.chateau_romani.items.ItemBottledFire;
 import enosphorous.chateau_romani.items.ItemBottledGhast;
 import enosphorous.chateau_romani.items.ItemChateauRomani;
 import enosphorous.chateau_romani.items.ItemFermentedGrains;
+import enosphorous.chateau_romani.items.ItemGhastlyBrew;
 import enosphorous.chateau_romani.items.ItemLonLonMilk;
 import enosphorous.chateau_romani.items.ItemLonLonMilkHalf;
 import enosphorous.chateau_romani.items.ItemMilkBottle;
@@ -19,6 +20,7 @@ public class Items {
 	public static Item lonlon_milk_half;
 	public static Item bottled_fire;
 	public static Item bottled_ghast;
+	public static Item ghastly_brew;
 	
 	public static void initialize() {
 		
@@ -29,6 +31,7 @@ public class Items {
 		lonlon_milk_full = new ItemLonLonMilk(ChateauConfigLoader.lonlon_milk_fullID, "full");
 		bottled_fire = new ItemBottledFire(ChateauConfigLoader.bottled_fireID, Block.fire);
 		bottled_ghast = new ItemBottledGhast(ChateauConfigLoader.bottled_ghastID);
+		ghastly_brew = new ItemGhastlyBrew(ChateauConfigLoader.ghastly_brewID);
 		
 		if (Reference.FORCE_DEBUG) {
 			System.out.println("[CHATEAU ROMANI] Items beginning initialization. . .");
@@ -38,6 +41,7 @@ public class Items {
 			System.out.println("[CHATEAU ROMANI] LonLon Milk added.");
 			System.out.println("[CHATEAU ROMANI] Bottled Fire added.");
 			System.out.println("[CHATEAU ROMANI] Bottled Ghast added.");
+			System.out.println("[CHATEAU ROMANI] Ghasstly Brew added.");
 
 			System.out.println("[CHATEAU ROMANI] Found and added " + Reference.ITEM_COUNT + " items.");
 			System.out.println("[CHATEAU ROMANI] Found and added " + Reference.BLOCK_COUNT + " blocks.");

@@ -17,6 +17,7 @@ public class ChateauConfigLoader {
     public static int     lonlon_milk_halfID                 = 11904;
     public static int     bottled_fireID                     = 11905;
     public static int     bottled_ghastID                    = 11906;
+    public static int     ghastly_brewID                     = 11907;
     
     public static boolean dungeonLoots                       = true;
     public static boolean newTrades                          = true;
@@ -36,6 +37,7 @@ public class ChateauConfigLoader {
             ChateauConfigLoader.lonlon_milk_halfID = config.get(ChateauConfigLoader.CategoryItemIDs, "half full lonlon milk id", 11904).getInt(11904);
             ChateauConfigLoader.bottled_fireID = config.get(ChateauConfigLoader.CategoryItemIDs, "bottled fire id", 11905).getInt(11905);
             ChateauConfigLoader.bottled_ghastID = config.get(ChateauConfigLoader.CategoryItemIDs, "bottled ghast id", 11906).getInt(11906);
+            ChateauConfigLoader.ghastly_brewID = config.get(ChateauConfigLoader.CategoryItemIDs, "ghastly brew id", 11907).getInt(11907);
             
             ChateauConfigLoader.dungeonLoots = config.get(ChateauConfigLoader.CategoryGlobal, "dungeon loot enabled", true).getBoolean(true);
             ChateauConfigLoader.newTrades = config.get(ChateauConfigLoader.CategoryGlobal, "edited villager trades enabled", true).getBoolean(true);
@@ -48,6 +50,7 @@ public class ChateauConfigLoader {
     			System.out.println("[CHATEAU ROMANI] LonLon Milk - " + Items.lonlon_milk_full.itemID + ", " + Items.lonlon_milk_half.itemID);
     			System.out.println("[CHATEAU ROMANI] Bottled Fire - " + Items.bottled_fire.itemID);
     			System.out.println("[CHATEAU ROMANI] Bottled Ghast - " + Items.bottled_ghast.itemID);
+    			System.out.println("[CHATEAU ROMANI] Ghastly Brew - " + Items.ghastly_brew.itemID);
             }
             
             System.out.println("[CHATEAU ROMANI] Configuration file loaded.");

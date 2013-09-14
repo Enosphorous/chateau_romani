@@ -1,11 +1,9 @@
 package enosphorous.chateau_romani.items;
 
-import java.util.Random;
-
 import net.minecraft.creativetab.CreativeTabs;
-import net.minecraft.entity.monster.EntityGhast;
+import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.player.EntityPlayer;
-import net.minecraft.entity.projectile.EntityEgg;
+import net.minecraft.entity.monster.EntityCreeper;
 import net.minecraft.item.EnumAction;
 import net.minecraft.item.EnumRarity;
 import net.minecraft.item.Item;
@@ -20,29 +18,19 @@ import enosphorous.chateau_romani.common.Reference;
 import enosphorous.chateau_romani.handlers.EnumDrinkType;
 import enosphorous.chateau_romani.handlers.IDrinkType;
 
-public class ItemBottledGhast extends Item implements IDrinkType
+public class ItemGhastlyBrew extends Item implements IDrinkType
 {
+
+
 	
-	
-    public ItemBottledGhast(int par1) {
+    public ItemGhastlyBrew(int par1) {
 		super(par1);
 		
-		this.setCreativeTab(CreativeTabs.tabBrewing);
-		this.setMaxStackSize(1);
-		this.setUnlocalizedName("bottled_ghast");
+		this.setCreativeTab(CreativeTabs.tabFood);
+		this.setUnlocalizedName("ghastly_brew");
 		this.func_111206_d(Reference.MOD_ID + ":" + this.getUnlocalizedName());
-
+		this.setMaxStackSize(1);
 	}
-    
-    @SideOnly(Side.CLIENT)
-
-    /**
-     * Return an item rarity from EnumRarity
-     */
-    public EnumRarity getRarity(ItemStack par1ItemStack)
-    {
-        return EnumRarity.rare;
-    }
 
 	public ItemStack onEaten(ItemStack par1ItemStack, World par2World, EntityPlayer par3EntityPlayer)
     {
@@ -51,9 +39,20 @@ public class ItemBottledGhast extends Item implements IDrinkType
             --par1ItemStack.stackSize;
         }
 
-        if (!par2World.isRemote && par3EntityPlayer.capabilities.isCreativeMode == false)
+        if (!par2World.isRemote && par3EntityPlayer.dimension == 0)
         {
-        	par3EntityPlayer.inventory.setInventorySlotContents(par3EntityPlayer.inventory.getFirstEmptyStack(), new ItemStack(Item.ghastTear));
+            par3EntityPlayer.addPotionEffect(new PotionEffect(Potion.fireResistance.id, 20 * 30, 2)); 
+        }
+        
+        if (!par2World.isRemote && par3EntityPlayer.dimension == -1)
+        {
+        	par3EntityPlayer.addPotionEffect(new PotionEffect(Potion.fireResistance.id, 20 * 60, 4));
+            par2World.playSoundAtEntity(par3EntityPlayer, "mob.wither.death", 1F, 1F);
+        }
+        
+        if (!par2World.isRemote && par3EntityPlayer.dimension == 1)
+        {
+        	par3EntityPlayer.addPotionEffect(new PotionEffect(Potion.fireResistance.id, 20 * 5, 0));
         }
 
         return par1ItemStack.stackSize <= 0 ? new ItemStack(Item.glassBottle) : par1ItemStack;
@@ -81,7 +80,25 @@ public class ItemBottledGhast extends Item implements IDrinkType
     public ItemStack onItemRightClick(ItemStack par1ItemStack, World par2World, EntityPlayer par3EntityPlayer)
     {
         par3EntityPlayer.setItemInUse(par1ItemStack, this.getMaxItemUseDuration(par1ItemStack));
+
         return par1ItemStack;
+    }
+
+    
+    @SideOnly(Side.CLIENT)
+    public boolean hasEffect(ItemStack par1ItemStack)
+    {
+        return true;
+    }
+    
+    @SideOnly(Side.CLIENT)
+
+    /**
+     * Return an item rarity from EnumRarity
+     */
+    public EnumRarity getRarity(ItemStack par1ItemStack)
+    {
+        return EnumRarity.epic;
     }
 
 	@Override
@@ -93,8 +110,9 @@ public class ItemBottledGhast extends Item implements IDrinkType
 		if (this.itemID == Items.fermented_grain.itemID  ) return EnumDrinkType.Inedible;
 		if (this.itemID == Items.lonlon_milk_full.itemID ) return EnumDrinkType.Milk;
 		if (this.itemID == Items.lonlon_milk_half.itemID ) return EnumDrinkType.Milk;
-		if (this.itemID == Items.milk_bottle.itemID      ) return EnumDrinkType.Milk;		
-		return EnumDrinkType.Special;
+		if (this.itemID == Items.milk_bottle.itemID      ) return EnumDrinkType.Milk;	
+		if (this.itemID == Items.ghastly_brew.itemID      ) return EnumDrinkType.Nether;	
+		return EnumDrinkType.Nether;
 	}
 
 }
