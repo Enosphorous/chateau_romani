@@ -56,7 +56,7 @@ public class ChateauConfigLoader {
             System.out.println("[CHATEAU ROMANI] Configuration file loaded.");
             
         } catch (Exception e) {
-            FMLLog.log(Level.SEVERE, "Error loading the configuration of [CHATEAU ROMANI - ELEGANT DRINKS]. Error message: " + e.getMessage() + " / " + e.toString());
+            FMLLog.log(Level.SEVERE, "Error loading the configuration of [CHATEAU ROMANI]. Error message: " + e.getMessage() + " / " + e.toString());
         } finally {
             config.save();
         }

@@ -41,7 +41,7 @@ public class Items {
 			System.out.println("[CHATEAU ROMANI] LonLon Milk added.");
 			System.out.println("[CHATEAU ROMANI] Bottled Fire added.");
 			System.out.println("[CHATEAU ROMANI] Bottled Ghast added.");
-			System.out.println("[CHATEAU ROMANI] Ghasstly Brew added.");
+			System.out.println("[CHATEAU ROMANI] Ghastly Brew added.");
 
 			System.out.println("[CHATEAU ROMANI] Found and added " + Reference.ITEM_COUNT + " items.");
 			System.out.println("[CHATEAU ROMANI] Found and added " + Reference.BLOCK_COUNT + " blocks.");

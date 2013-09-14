@@ -30,7 +30,6 @@ public class ItemLonLonMilkHalf extends Item implements IDrinkType
     public ItemLonLonMilkHalf(int par1, String par2) {
 		super(par1);
 		
-		this.setCreativeTab(CreativeTabs.tabFood);
 		this.setMaxStackSize(1);
 		this.variant = par2;
 		this.setUnlocalizedName("lonlon_milk" + "_" + variant);
