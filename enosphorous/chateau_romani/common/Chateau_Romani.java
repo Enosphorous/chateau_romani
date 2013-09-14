@@ -67,6 +67,7 @@ public class Chateau_Romani {
 	public void load(FMLInitializationEvent event) {		
 		
 		Item.glassBottle.setMaxStackSize(1);
+		Item.ghastTear.setMaxStackSize(16);
 		TradeRegistryHandler.manipulate();
 		
 	}

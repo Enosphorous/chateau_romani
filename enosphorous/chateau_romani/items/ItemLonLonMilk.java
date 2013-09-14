@@ -97,7 +97,14 @@ public class ItemLonLonMilk extends Item implements IDrinkType
 
 	@Override
 	public EnumDrinkType getDrinkType(World world, int x, int y, int z) {
-
+		
+		if (this.itemID == Items.bottled_fire.itemID     ) return EnumDrinkType.Harmful;
+		if (this.itemID == Items.bottled_ghast.itemID    ) return EnumDrinkType.Inedible;
+		if (this.itemID == Items.chateau_romani.itemID   ) return EnumDrinkType.Special;
+		if (this.itemID == Items.fermented_grain.itemID  ) return EnumDrinkType.Inedible;
+		if (this.itemID == Items.lonlon_milk_full.itemID ) return EnumDrinkType.Milk;
+		if (this.itemID == Items.lonlon_milk_half.itemID ) return EnumDrinkType.Milk;
+		if (this.itemID == Items.milk_bottle.itemID      ) return EnumDrinkType.Milk;		
 		return EnumDrinkType.Milk;
 	}
 

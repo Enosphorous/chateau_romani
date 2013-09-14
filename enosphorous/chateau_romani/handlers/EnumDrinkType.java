@@ -6,11 +6,9 @@ public enum EnumDrinkType {
 	 * For organization purposes.
 	 */
 	
-	Normal,
 	Milk,
 	Special,
 	Harmful,
-	Alcohol,
 	Inedible
 
 }

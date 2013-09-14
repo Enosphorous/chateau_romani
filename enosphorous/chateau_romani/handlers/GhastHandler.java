@@ -21,13 +21,19 @@ if (event.entity instanceof EntityPlayer)
 EntityPlayer player = (EntityPlayer) event.entity;
 if (event.target != null && event.target instanceof EntityGhast && player.getHeldItem() != null && player.getHeldItem().itemID == Item.glassBottle.itemID)
 {
-    if (player.getHeldItem().stackSize-- == 1)
-    {
         player.inventory.setInventorySlotContents(player.inventory.currentItem, new ItemStack(Items.bottled_ghast));
-        event.target.attackEntityFrom(DamageSource.generic, 8000F);
         event.target.setInvisible(true);
-
-    }
+        event.target.setPosition(event.target.posX, event.target.posY - 300, event.target.posZ);
+        event.target.attackEntityFrom(DamageSource.generic, 800F);
+        event.target.setDead();
+        player.inventory.setInventorySlotContents(player.inventory.currentItem, new ItemStack(Items.bottled_ghast));
+        
+        /**
+         * VERY buggy, still.
+         * Teleports Ghast far away, and then kills it, so as it destroy the drops.
+         * Issues with out-of-bounds errors may occur. . .
+         * Bottled Ghast still iffy - sometimes kills Ghast and still gives empty bottle.
+         */
 }
 }
 }
