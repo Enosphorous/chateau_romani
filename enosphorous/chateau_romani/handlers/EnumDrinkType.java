@@ -4,6 +4,7 @@ public enum EnumDrinkType {
 	
 	/**
 	 * For organization purposes.
+	 * Will do something later.
 	 */
 	
 	Milk,
@@ -12,3 +13,4 @@ public enum EnumDrinkType {
 	Inedible
 
 }
+
