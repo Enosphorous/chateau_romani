@@ -11,6 +11,14 @@
 - **SynthTones** - Helped A LOT with FireHandler.
 
 ## Changelog
+       Version 0.0.2
+       -Added Bottled Fire for later use.
+       -Added Bottled Ghast for later use.
+       -Added the Ghastly Brew, which will be edited.
+       -Added Lon Lon Milk, which may have some texture changes later.
+       -Nerfed Chateau Romani.
+       -Plans to add a whole new brewing system.
+       
        Version 0.0.1
       - First public release
       
