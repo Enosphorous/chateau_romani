@@ -1,6 +1,4 @@
-## Chateau Romani
-
-- This mod is a Legend of Zelda themed expansion to the drinks in Minecraft. 
+![](https://dl.dropbox.com/s/mef49ycw7uh1nf7/pack.png)
 
 ## Authors
 
