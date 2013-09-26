@@ -19,10 +19,16 @@ public class ChateauConfigLoader {
     public static int     bottled_ghastID                    = 11906;
     public static int     ghastly_brewID                     = 11907;
     
+    public static int     potion_redID                       = 11908;
+    public static int     potion_greenID                     = 11909;
+    public static int     potion_blueID                      = 11910;
+    public static int     bottled_fairyID                    = 11911;
+    
     public static boolean dungeonLoots                       = true;
     public static boolean newTrades                          = true;
 
     static final String   CategoryItemIDs                = "item id customization";
+    static final String   CategoryBlockIDs               = "block id customization";
     static final String   CategoryGlobal                 = "global customization";
 
     public static void load(Configuration config) {
@@ -39,6 +45,11 @@ public class ChateauConfigLoader {
             ChateauConfigLoader.bottled_ghastID = config.get(ChateauConfigLoader.CategoryItemIDs, "bottled ghast id", 11906).getInt(11906);
             ChateauConfigLoader.ghastly_brewID = config.get(ChateauConfigLoader.CategoryItemIDs, "ghastly brew id", 11907).getInt(11907);
             
+            ChateauConfigLoader.potion_redID = config.get(ChateauConfigLoader.CategoryItemIDs, "red potion id", 11908).getInt(11908);
+            ChateauConfigLoader.potion_greenID = config.get(ChateauConfigLoader.CategoryItemIDs, "green potion id", 11909).getInt(11909);
+            ChateauConfigLoader.potion_blueID = config.get(ChateauConfigLoader.CategoryItemIDs, "blue potion id", 11910).getInt(11910);
+            ChateauConfigLoader.bottled_fairyID = config.get(ChateauConfigLoader.CategoryItemIDs, "bottle fairy id", 11911).getInt(11911);
+
             ChateauConfigLoader.dungeonLoots = config.get(ChateauConfigLoader.CategoryGlobal, "dungeon loot enabled", true).getBoolean(true);
             ChateauConfigLoader.newTrades = config.get(ChateauConfigLoader.CategoryGlobal, "edited villager trades enabled", true).getBoolean(true);
             
@@ -51,6 +62,9 @@ public class ChateauConfigLoader {
     			System.out.println("[CHATEAU ROMANI] Bottled Fire - " + Items.bottled_fire.itemID);
     			System.out.println("[CHATEAU ROMANI] Bottled Ghast - " + Items.bottled_ghast.itemID);
     			System.out.println("[CHATEAU ROMANI] Ghastly Brew - " + Items.ghastly_brew.itemID);
+    			
+    			System.out.println("[CHATEAU ROMANI] Potions - " + Items.potion_red.itemID + ", " + Items.potion_green.itemID + ", " + Items.potion_blue.itemID);
+    			System.out.println("[CHATEAU ROMANI] Bottled Fairy - " + Items.bottled_fairy.itemID);
             }
             
             System.out.println("[CHATEAU ROMANI] Configuration file loaded.");

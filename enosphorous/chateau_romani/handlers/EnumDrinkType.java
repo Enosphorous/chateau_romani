@@ -11,7 +11,8 @@ public enum EnumDrinkType {
 	Special,
 	Harmful,
 	Inedible,
-	Nether
+	Nether,
+	Potion
 
 }
 

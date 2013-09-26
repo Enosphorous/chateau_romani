@@ -2,14 +2,18 @@ package enosphorous.chateau_romani.common;
 
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
+import enosphorous.chateau_romani.items.ItemBluePotion;
+import enosphorous.chateau_romani.items.ItemBottledFairy;
 import enosphorous.chateau_romani.items.ItemBottledFire;
 import enosphorous.chateau_romani.items.ItemBottledGhast;
 import enosphorous.chateau_romani.items.ItemChateauRomani;
 import enosphorous.chateau_romani.items.ItemFermentedGrains;
 import enosphorous.chateau_romani.items.ItemGhastlyBrew;
+import enosphorous.chateau_romani.items.ItemGreenPotion;
 import enosphorous.chateau_romani.items.ItemLonLonMilk;
 import enosphorous.chateau_romani.items.ItemLonLonMilkHalf;
 import enosphorous.chateau_romani.items.ItemMilkBottle;
+import enosphorous.chateau_romani.items.ItemRedPotion;
 
 public class Items {
 	
@@ -22,6 +26,11 @@ public class Items {
 	public static Item bottled_ghast;
 	public static Item ghastly_brew;
 	
+	public static Item potion_red;
+	public static Item potion_blue;
+	public static Item potion_green;
+	public static Item bottled_fairy;
+	
 	public static void initialize() {
 		
 		chateau_romani = new ItemChateauRomani(ChateauConfigLoader.chateau_romaniID);
@@ -32,6 +41,11 @@ public class Items {
 		bottled_fire = new ItemBottledFire(ChateauConfigLoader.bottled_fireID, Block.fire);
 		bottled_ghast = new ItemBottledGhast(ChateauConfigLoader.bottled_ghastID);
 		ghastly_brew = new ItemGhastlyBrew(ChateauConfigLoader.ghastly_brewID);
+		
+		potion_red = new ItemRedPotion(ChateauConfigLoader.potion_redID);
+		potion_green = new ItemGreenPotion(ChateauConfigLoader.potion_greenID);
+		potion_blue = new ItemBluePotion(ChateauConfigLoader.potion_blueID);
+		bottled_fairy = new ItemBottledFairy(ChateauConfigLoader.bottled_fairyID);
 		
 		if (Reference.FORCE_DEBUG) {
 			System.out.println("[CHATEAU ROMANI] Items beginning initialization. . .");
