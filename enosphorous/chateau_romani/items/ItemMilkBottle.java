@@ -84,4 +84,10 @@ public class ItemMilkBottle extends Item implements IDrinkType
 		return EnumDrinkType.Milk;
 	}
 
+	@Override
+	public String getOrigin() {
+		
+		return "0.0.1";
+	}
+
 }

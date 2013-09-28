@@ -125,5 +125,11 @@ public class ItemBottledFire extends Item implements IDrinkType
 		if (this.itemID == Items.milk_bottle.itemID      ) return EnumDrinkType.Milk;		
 		return EnumDrinkType.Harmful;
 	}
+
+	@Override
+	public String getOrigin() {
+		
+		return "0.0.2";
+	}
     
 }

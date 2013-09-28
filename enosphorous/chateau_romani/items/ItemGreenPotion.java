@@ -98,4 +98,10 @@ public class ItemGreenPotion extends Item implements IDrinkType
 		return EnumDrinkType.Potion;
 	}
 
+	@Override
+	public String getOrigin() {
+		
+		return "0.0.3";
+	}
+
 }

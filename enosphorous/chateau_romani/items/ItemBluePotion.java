@@ -23,7 +23,6 @@ import enosphorous.chateau_romani.handlers.IDrinkType;
 public class ItemBluePotion extends Item implements IDrinkType
 {
 	
-	
     public ItemBluePotion(int par1) {
 		super(par1);
 		
@@ -97,6 +96,11 @@ public class ItemBluePotion extends Item implements IDrinkType
 		if (this.itemID == Items.lonlon_milk_half.itemID ) return EnumDrinkType.Milk;
 		if (this.itemID == Items.milk_bottle.itemID      ) return EnumDrinkType.Milk;		
 		return EnumDrinkType.Potion;
+	}
+
+	@Override
+	public String getOrigin() {
+		return "0.0.3";
 	}
 
 }

@@ -105,4 +105,10 @@ public class ItemChateauRomani extends Item implements IDrinkType
 		return EnumDrinkType.Special;
 	}
 
+	@Override
+	public String getOrigin() {
+		
+		return "0.0.1";
+	}
+
 }

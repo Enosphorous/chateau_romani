@@ -1,6 +1,5 @@
 package enosphorous.chateau_romani.common;
 
-import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import net.minecraftforge.common.Configuration;
 import net.minecraftforge.common.MinecraftForge;
@@ -12,15 +11,11 @@ import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.event.FMLServerStartingEvent;
 import cpw.mods.fml.common.network.NetworkMod;
-import cpw.mods.fml.common.registry.VillagerRegistry;
-import enosphorous.chateau_romani.handlers.FarmerTradeHandler;
-import enosphorous.chateau_romani.handlers.FireHandler;
-import enosphorous.chateau_romani.handlers.GenericTradeHandler;
 import enosphorous.chateau_romani.handlers.CowHandler;
+import enosphorous.chateau_romani.handlers.FireHandler;
 import enosphorous.chateau_romani.handlers.GhastHandler;
 import enosphorous.chateau_romani.handlers.LocalizationHandler;
 import enosphorous.chateau_romani.handlers.LootHandler;
-import enosphorous.chateau_romani.handlers.PriestTradeHandler;
 import enosphorous.chateau_romani.handlers.RecipeManager;
 import enosphorous.chateau_romani.handlers.TradeRegistryHandler;
 import enosphorous.chateau_romani.handlers.WitchDropHandler;

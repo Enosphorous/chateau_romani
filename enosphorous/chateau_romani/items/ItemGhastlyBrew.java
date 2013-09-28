@@ -115,4 +115,10 @@ public class ItemGhastlyBrew extends Item implements IDrinkType
 		return EnumDrinkType.Nether;
 	}
 
+	@Override
+	public String getOrigin() {
+		
+		return "0.0.2";
+	}
+
 }
