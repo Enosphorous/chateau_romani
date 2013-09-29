@@ -9,7 +9,7 @@ import net.minecraft.item.Item;
 import net.minecraft.potion.PotionHelper;
 import net.minecraft.world.World;
 
-public class ItemFermentedGrains extends Item
+public class ItemFermentedGrains extends Item implements IDrinkType
 {
 
 	public ItemFermentedGrains(int par1) {
@@ -20,6 +20,24 @@ public class ItemFermentedGrains extends Item
 		this.func_111206_d(Reference.MOD_ID + ":" + this.getUnlocalizedName());
 		this.setMaxStackSize(64);
 		this.setPotionEffect(PotionHelper.fermentedSpiderEyeEffect);
+	}
+
+	@Override
+	public EnumDrinkType getDrinkType(World world, int x, int y, int z) {
+
+		return EnumDrinkType.Inedible;
+	}
+
+	@Override
+	public String getOrigin() {
+		
+		return "0.0.1";
+	}
+
+	@Override
+	public boolean isBottled() {
+		
+		return false;
 	}
 
 

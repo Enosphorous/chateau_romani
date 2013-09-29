@@ -26,8 +26,15 @@ public class ItemMilkBottle extends Item implements IDrinkType
 		this.setCreativeTab(CreativeTabs.tabFood);
 		this.setUnlocalizedName("milk_bottle");
 		this.func_111206_d(Reference.MOD_ID + ":" + this.getUnlocalizedName());
-		this.setMaxStackSize(1);	
+		this.setMaxStackSize(1);
+		
+		if (this.isBottled()){
+			
+			this.setContainerItem(Item.glassBottle);
+			
+		}
 	}
+
 
     @Override
 	public ItemStack onEaten(ItemStack par1ItemStack, World par2World, EntityPlayer par3EntityPlayer)
@@ -88,6 +95,13 @@ public class ItemMilkBottle extends Item implements IDrinkType
 	public String getOrigin() {
 		
 		return "0.0.1";
+	}
+
+
+	@Override
+	public boolean isBottled() {
+		
+		return true;
 	}
 
 }

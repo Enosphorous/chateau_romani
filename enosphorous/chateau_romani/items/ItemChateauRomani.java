@@ -30,6 +30,12 @@ public class ItemChateauRomani extends Item implements IDrinkType
 		this.setUnlocalizedName("chateau_romani");
 		this.func_111206_d(Reference.MOD_ID + ":" + this.getUnlocalizedName());
 		this.setMaxStackSize(1);
+		
+		if (this.isBottled()){
+			
+			this.setContainerItem(Item.glassBottle);
+			
+		}
 	}
 
 	public ItemStack onEaten(ItemStack par1ItemStack, World par2World, EntityPlayer par3EntityPlayer)
@@ -109,6 +115,12 @@ public class ItemChateauRomani extends Item implements IDrinkType
 	public String getOrigin() {
 		
 		return "0.0.1";
+	}
+
+	@Override
+	public boolean isBottled() {
+
+		return true;
 	}
 
 }

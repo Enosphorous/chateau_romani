@@ -31,6 +31,12 @@ public class ItemRedPotion extends Item implements IDrinkType
 		this.setMaxStackSize(8);
 		this.setUnlocalizedName("red_potion");
 		this.func_111206_d(Reference.MOD_ID + ":" + this.getUnlocalizedName());
+		
+		if (this.isBottled()){
+			
+			this.setContainerItem(Item.glassBottle);
+			
+		}
 
 	}
     
@@ -101,6 +107,12 @@ public class ItemRedPotion extends Item implements IDrinkType
 	public String getOrigin() {
 		
 		return "0.0.3";
+	}
+
+	@Override
+	public boolean isBottled() {
+		
+		return true;
 	}
 
 }

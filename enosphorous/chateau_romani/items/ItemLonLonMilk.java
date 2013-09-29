@@ -35,6 +35,12 @@ public class ItemLonLonMilk extends Item implements IDrinkType
 		this.variant = par2;
 		this.setUnlocalizedName("lonlon_milk" + "_" + variant);
 		this.func_111206_d(Reference.MOD_ID + ":" + this.getUnlocalizedName());
+		
+		if (this.isBottled()){
+			
+			this.setContainerItem(Item.glassBottle);
+			
+		}
 	}
 
 	public ItemStack onEaten(ItemStack par1ItemStack, World par2World, EntityPlayer par3EntityPlayer)
@@ -112,6 +118,12 @@ public class ItemLonLonMilk extends Item implements IDrinkType
 	public String getOrigin() {
 		
 		return "0.0.2";
+	}
+
+	@Override
+	public boolean isBottled() {
+	
+		return true;
 	}
 
 }

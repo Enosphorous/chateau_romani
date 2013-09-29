@@ -29,8 +29,13 @@ public class ItemBottledFire extends Item implements IDrinkType
 		this.setMaxStackSize(1);
 		this.setUnlocalizedName("bottled_fire");
 		this.func_111206_d(Reference.MOD_ID + ":" + this.getUnlocalizedName());
-		this.setContainerItem(Item.glassBottle);
 		this.spawnID = par2Block.blockID;
+		
+		if (this.isBottled()){
+			
+			this.setContainerItem(Item.glassBottle);
+			
+		}
 	}
     
     /**
@@ -130,6 +135,12 @@ public class ItemBottledFire extends Item implements IDrinkType
 	public String getOrigin() {
 		
 		return "0.0.2";
+	}
+
+	@Override
+	public boolean isBottled() {
+
+		return true;
 	}
     
 }

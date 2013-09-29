@@ -31,6 +31,12 @@ public class ItemBottledGhast extends Item implements IDrinkType
 		this.setMaxStackSize(1);
 		this.setUnlocalizedName("bottled_ghast");
 		this.func_111206_d(Reference.MOD_ID + ":" + this.getUnlocalizedName());
+		
+		if (this.isBottled()){
+			
+			this.setContainerItem(Item.glassBottle);
+			
+		}
 
 	}
     
@@ -101,6 +107,12 @@ public class ItemBottledGhast extends Item implements IDrinkType
 	public String getOrigin() {
 		
 		return "0.0.2";
+	}
+
+	@Override
+	public boolean isBottled() {
+
+		return true;
 	}
 
 }

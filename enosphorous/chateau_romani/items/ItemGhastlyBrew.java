@@ -21,8 +21,6 @@ import enosphorous.chateau_romani.handlers.IDrinkType;
 public class ItemGhastlyBrew extends Item implements IDrinkType
 {
 
-
-	
     public ItemGhastlyBrew(int par1) {
 		super(par1);
 		
@@ -30,6 +28,12 @@ public class ItemGhastlyBrew extends Item implements IDrinkType
 		this.setUnlocalizedName("ghastly_brew");
 		this.func_111206_d(Reference.MOD_ID + ":" + this.getUnlocalizedName());
 		this.setMaxStackSize(1);
+		
+		if (this.isBottled()){
+			
+			this.setContainerItem(Item.glassBottle);
+			
+		}
 	}
 
 	public ItemStack onEaten(ItemStack par1ItemStack, World par2World, EntityPlayer par3EntityPlayer)
@@ -119,6 +123,12 @@ public class ItemGhastlyBrew extends Item implements IDrinkType
 	public String getOrigin() {
 		
 		return "0.0.2";
+	}
+
+	@Override
+	public boolean isBottled() {
+
+		return true;
 	}
 
 }

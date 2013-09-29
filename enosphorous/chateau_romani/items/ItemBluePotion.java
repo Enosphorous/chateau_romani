@@ -27,9 +27,15 @@ public class ItemBluePotion extends Item implements IDrinkType
 		super(par1);
 		
 		this.setCreativeTab(CreativeTabs.tabBrewing);
-		this.setMaxStackSize(8);
+		this.setMaxStackSize(2);
 		this.setUnlocalizedName("blue_potion");
 		this.func_111206_d(Reference.MOD_ID + ":" + this.getUnlocalizedName());
+		
+		if (this.isBottled()){
+			
+			this.setContainerItem(Item.glassBottle);
+			
+		}
 
 	}
     
@@ -101,6 +107,12 @@ public class ItemBluePotion extends Item implements IDrinkType
 	@Override
 	public String getOrigin() {
 		return "0.0.3";
+	}
+
+	@Override
+	public boolean isBottled() {
+		
+		return true;
 	}
 
 }
