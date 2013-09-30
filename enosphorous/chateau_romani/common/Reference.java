@@ -4,7 +4,7 @@ public class Reference {
 	
 	public static final String MOD_ID = "chateau_romani";
 	public static final String MOD_NAME = "Chateau Romani";
-	public static final String MOD_VERSION = "ALPHA 0.0.2";
+	public static final String MOD_VERSION = "ALPHA 0.0.3";
 	public static final String MOD_INSTANCE = "chateau_romani";
 	
 	public static final String SERVER_PATH = "enosphorous.chateau_romani.common.CommonProxy";
@@ -22,7 +22,7 @@ public class Reference {
 	 */
 	public static final int LANGUAGE_COUNT = 60;
 	public static final int RECIPE_COUNT = 5;
-	public static final int ITEM_COUNT = 8;
+	public static final int ITEM_COUNT = 12;
 	public static final int BLOCK_COUNT = 0;
 	
 }

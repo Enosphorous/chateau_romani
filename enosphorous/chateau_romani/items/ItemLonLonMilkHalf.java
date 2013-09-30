@@ -1,5 +1,7 @@
 package enosphorous.chateau_romani.items;
 
+import java.util.Random;
+
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.player.EntityPlayer;
@@ -16,9 +18,9 @@ import cpw.mods.fml.relauncher.SideOnly;
 import enosphorous.chateau_romani.common.Items;
 import enosphorous.chateau_romani.common.Reference;
 import enosphorous.chateau_romani.handlers.EnumDrinkType;
-import enosphorous.chateau_romani.handlers.IDrinkType;
+import enosphorous.chateau_romani.handlers.ICategorization;
 
-public class ItemLonLonMilkHalf extends Item implements IDrinkType
+public class ItemLonLonMilkHalf extends Item implements ICategorization
 {
 
 /**
@@ -103,14 +105,7 @@ public class ItemLonLonMilkHalf extends Item implements IDrinkType
 
 	@Override
 	public EnumDrinkType getDrinkType(World world, int x, int y, int z) {
-		
-		if (this.itemID == Items.bottled_fire.itemID     ) return EnumDrinkType.Harmful;
-		if (this.itemID == Items.bottled_ghast.itemID    ) return EnumDrinkType.Inedible;
-		if (this.itemID == Items.chateau_romani.itemID   ) return EnumDrinkType.Special;
-		if (this.itemID == Items.fermented_grain.itemID  ) return EnumDrinkType.Inedible;
-		if (this.itemID == Items.lonlon_milk_full.itemID ) return EnumDrinkType.Milk;
-		if (this.itemID == Items.lonlon_milk_half.itemID ) return EnumDrinkType.Milk;
-		if (this.itemID == Items.milk_bottle.itemID      ) return EnumDrinkType.Milk;		
+			
 		return EnumDrinkType.Milk;
 	}
 

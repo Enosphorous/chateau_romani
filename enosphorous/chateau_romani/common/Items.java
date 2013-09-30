@@ -33,19 +33,19 @@ public class Items {
 	
 	public static void initialize() {
 		
-		chateau_romani = new ItemChateauRomani(ChateauConfigLoader.chateau_romaniID);
-		milk_bottle = new ItemMilkBottle(ChateauConfigLoader.milk_bottleID);
-		fermented_grain = new ItemFermentedGrains(ChateauConfigLoader.fermented_grainsID);
-		lonlon_milk_half = new ItemLonLonMilkHalf(ChateauConfigLoader.lonlon_milk_halfID, "half");
-		lonlon_milk_full = new ItemLonLonMilk(ChateauConfigLoader.lonlon_milk_fullID, "full");
-		bottled_fire = new ItemBottledFire(ChateauConfigLoader.bottled_fireID, Block.fire);
-		bottled_ghast = new ItemBottledGhast(ChateauConfigLoader.bottled_ghastID);
-		ghastly_brew = new ItemGhastlyBrew(ChateauConfigLoader.ghastly_brewID);
+		chateau_romani = new ItemChateauRomani(Configuring.chateau_romaniID);
+		milk_bottle = new ItemMilkBottle(Configuring.milk_bottleID);
+		fermented_grain = new ItemFermentedGrains(Configuring.fermented_grainsID);
+		lonlon_milk_half = new ItemLonLonMilkHalf(Configuring.lonlon_milk_halfID, "half");
+		lonlon_milk_full = new ItemLonLonMilk(Configuring.lonlon_milk_fullID, "full");
+		bottled_fire = new ItemBottledFire(Configuring.bottled_fireID, Block.fire);
+		bottled_ghast = new ItemBottledGhast(Configuring.bottled_ghastID);
+		ghastly_brew = new ItemGhastlyBrew(Configuring.ghastly_brewID);
 		
-		potion_red = new ItemRedPotion(ChateauConfigLoader.potion_redID);
-		potion_green = new ItemGreenPotion(ChateauConfigLoader.potion_greenID);
-		potion_blue = new ItemBluePotion(ChateauConfigLoader.potion_blueID);
-		bottled_fairy = new ItemBottledFairy(ChateauConfigLoader.bottled_fairyID);
+		potion_red = new ItemRedPotion(Configuring.potion_redID);
+		potion_green = new ItemGreenPotion(Configuring.potion_greenID);
+		potion_blue = new ItemBluePotion(Configuring.potion_blueID);
+		bottled_fairy = new ItemBottledFairy(Configuring.bottled_fairyID);
 		
 		if (Reference.FORCE_DEBUG) {
 			System.out.println("[CHATEAU ROMANI] Items beginning initialization. . .");
@@ -56,6 +56,10 @@ public class Items {
 			System.out.println("[CHATEAU ROMANI] Bottled Fire added.");
 			System.out.println("[CHATEAU ROMANI] Bottled Ghast added.");
 			System.out.println("[CHATEAU ROMANI] Ghastly Brew added.");
+			
+			System.out.println("[CHATEAU ROMANI] Potions added.");
+			System.out.println("[CHATEAU ROMANI] Bottled Fairy added.");
+
 
 			System.out.println("[CHATEAU ROMANI] Found and added " + Reference.ITEM_COUNT + " items.");
 			System.out.println("[CHATEAU ROMANI] Found and added " + Reference.BLOCK_COUNT + " blocks.");

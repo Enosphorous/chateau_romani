@@ -8,7 +8,7 @@ import cpw.mods.fml.common.FMLLog;
 
 
 
-public class ChateauConfigLoader {
+public class Configuring {
 
     public static int     chateau_romaniID                   = 11900;
     public static int     milk_bottleID                      = 11901;
@@ -36,22 +36,22 @@ public class ChateauConfigLoader {
         try {
             config.load();
 
-            ChateauConfigLoader.chateau_romaniID = config.get(ChateauConfigLoader.CategoryItemIDs, "chateau romani id", 11900).getInt(11900);
-            ChateauConfigLoader.milk_bottleID = config.get(ChateauConfigLoader.CategoryItemIDs, "milk bottle id", 11901).getInt(11901);
-            ChateauConfigLoader.fermented_grainsID = config.get(ChateauConfigLoader.CategoryItemIDs, "fermented grains id", 11902).getInt(11902);
-            ChateauConfigLoader.lonlon_milk_fullID = config.get(ChateauConfigLoader.CategoryItemIDs, "full lonlon milk id", 11903).getInt(11903);
-            ChateauConfigLoader.lonlon_milk_halfID = config.get(ChateauConfigLoader.CategoryItemIDs, "half full lonlon milk id", 11904).getInt(11904);
-            ChateauConfigLoader.bottled_fireID = config.get(ChateauConfigLoader.CategoryItemIDs, "bottled fire id", 11905).getInt(11905);
-            ChateauConfigLoader.bottled_ghastID = config.get(ChateauConfigLoader.CategoryItemIDs, "bottled ghast id", 11906).getInt(11906);
-            ChateauConfigLoader.ghastly_brewID = config.get(ChateauConfigLoader.CategoryItemIDs, "ghastly brew id", 11907).getInt(11907);
+            Configuring.chateau_romaniID = config.get(Configuring.CategoryItemIDs, "chateau romani id", 11900).getInt(11900);
+            Configuring.milk_bottleID = config.get(Configuring.CategoryItemIDs, "milk bottle id", 11901).getInt(11901);
+            Configuring.fermented_grainsID = config.get(Configuring.CategoryItemIDs, "fermented grains id", 11902).getInt(11902);
+            Configuring.lonlon_milk_fullID = config.get(Configuring.CategoryItemIDs, "full lonlon milk id", 11903).getInt(11903);
+            Configuring.lonlon_milk_halfID = config.get(Configuring.CategoryItemIDs, "half full lonlon milk id", 11904).getInt(11904);
+            Configuring.bottled_fireID = config.get(Configuring.CategoryItemIDs, "bottled fire id", 11905).getInt(11905);
+            Configuring.bottled_ghastID = config.get(Configuring.CategoryItemIDs, "bottled ghast id", 11906).getInt(11906);
+            Configuring.ghastly_brewID = config.get(Configuring.CategoryItemIDs, "ghastly brew id", 11907).getInt(11907);
             
-            ChateauConfigLoader.potion_redID = config.get(ChateauConfigLoader.CategoryItemIDs, "red potion id", 11908).getInt(11908);
-            ChateauConfigLoader.potion_greenID = config.get(ChateauConfigLoader.CategoryItemIDs, "green potion id", 11909).getInt(11909);
-            ChateauConfigLoader.potion_blueID = config.get(ChateauConfigLoader.CategoryItemIDs, "blue potion id", 11910).getInt(11910);
-            ChateauConfigLoader.bottled_fairyID = config.get(ChateauConfigLoader.CategoryItemIDs, "bottle fairy id", 11911).getInt(11911);
+            Configuring.potion_redID = config.get(Configuring.CategoryItemIDs, "red potion id", 11908).getInt(11908);
+            Configuring.potion_greenID = config.get(Configuring.CategoryItemIDs, "green potion id", 11909).getInt(11909);
+            Configuring.potion_blueID = config.get(Configuring.CategoryItemIDs, "blue potion id", 11910).getInt(11910);
+            Configuring.bottled_fairyID = config.get(Configuring.CategoryItemIDs, "bottle fairy id", 11911).getInt(11911);
 
-            ChateauConfigLoader.dungeonLoots = config.get(ChateauConfigLoader.CategoryGlobal, "dungeon loot enabled", true).getBoolean(true);
-            ChateauConfigLoader.newTrades = config.get(ChateauConfigLoader.CategoryGlobal, "edited villager trades enabled", true).getBoolean(true);
+            Configuring.dungeonLoots = config.get(Configuring.CategoryGlobal, "dungeon loot enabled", true).getBoolean(true);
+            Configuring.newTrades = config.get(Configuring.CategoryGlobal, "edited villager trades enabled", true).getBoolean(true);
             
             if (Reference.FORCE_DEBUG){
     			System.out.println("[CHATEAU ROMANI] String printing - Item IDs");

@@ -1,5 +1,7 @@
 package enosphorous.chateau_romani.items;
 
+import java.util.Random;
+
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.Item;
@@ -7,9 +9,9 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.world.World;
 import enosphorous.chateau_romani.common.Reference;
 import enosphorous.chateau_romani.handlers.EnumDrinkType;
-import enosphorous.chateau_romani.handlers.IDrinkType;
+import enosphorous.chateau_romani.handlers.ICategorization;
 
-public class ItemBottledFairy extends Item implements IDrinkType{
+public class ItemBottledFairy extends Item implements ICategorization{
 
 	public ItemBottledFairy(int par1) {
 		super(par1);
@@ -43,18 +45,10 @@ public class ItemBottledFairy extends Item implements IDrinkType{
             if (!par2World.isRemote)
             {
                 par3EntityPlayer.inventory.addItemStackToInventory(new ItemStack(Item.glassBottle, 1));
-                par3EntityPlayer.heal(1F);
-                par3EntityPlayer.heal(1F);
-                par3EntityPlayer.heal(1F);
-                par3EntityPlayer.heal(1F);
-                par3EntityPlayer.heal(1F);
-                par3EntityPlayer.heal(1F);
-                par3EntityPlayer.heal(1F);
-                par3EntityPlayer.heal(1F);
-                par3EntityPlayer.heal(1F);
-                par3EntityPlayer.heal(1F);
-                par3EntityPlayer.heal(1F);
-                par3EntityPlayer.heal(1F);
+                par3EntityPlayer.heal(12F);
+                /**
+                 * Try to heal the player periodically?
+                 */
             }
 
             return par1ItemStack;

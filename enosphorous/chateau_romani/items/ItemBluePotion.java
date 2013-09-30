@@ -18,10 +18,11 @@ import cpw.mods.fml.relauncher.SideOnly;
 import enosphorous.chateau_romani.common.Items;
 import enosphorous.chateau_romani.common.Reference;
 import enosphorous.chateau_romani.handlers.EnumDrinkType;
-import enosphorous.chateau_romani.handlers.IDrinkType;
+import enosphorous.chateau_romani.handlers.ICategorization;
 
-public class ItemBluePotion extends Item implements IDrinkType
+public class ItemBluePotion extends Item implements ICategorization
 {
+
 	
     public ItemBluePotion(int par1) {
 		super(par1);
@@ -90,25 +91,27 @@ public class ItemBluePotion extends Item implements IDrinkType
         par3EntityPlayer.setItemInUse(par1ItemStack, this.getMaxItemUseDuration(par1ItemStack));
         return par1ItemStack;
     }
-
+    
+    /**
+     * Gets the drink's type, called from EnumDrinkType.
+     */
 	@Override
 	public EnumDrinkType getDrinkType(World world, int x, int y, int z) {
 		
-		if (this.itemID == Items.bottled_fire.itemID     ) return EnumDrinkType.Harmful;
-		if (this.itemID == Items.bottled_ghast.itemID    ) return EnumDrinkType.Inedible;
-		if (this.itemID == Items.chateau_romani.itemID   ) return EnumDrinkType.Special;
-		if (this.itemID == Items.fermented_grain.itemID  ) return EnumDrinkType.Inedible;
-		if (this.itemID == Items.lonlon_milk_full.itemID ) return EnumDrinkType.Milk;
-		if (this.itemID == Items.lonlon_milk_half.itemID ) return EnumDrinkType.Milk;
-		if (this.itemID == Items.milk_bottle.itemID      ) return EnumDrinkType.Milk;		
 		return EnumDrinkType.Potion;
 	}
 
+	/**
+	 * Gets the first version of Chateau Romani this item was implemented in.
+	 */
 	@Override
 	public String getOrigin() {
 		return "0.0.3";
 	}
-
+	
+	/**
+	 * Is the item in a bottle? This sets the container item to Item.glassBottle.
+	 */
 	@Override
 	public boolean isBottled() {
 		

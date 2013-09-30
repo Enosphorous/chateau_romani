@@ -42,7 +42,7 @@ public class Chateau_Romani {
 		}
 		
 		Items.initialize();
-		if (ChateauConfigLoader.dungeonLoots){
+		if (Configuring.dungeonLoots){
 		LootHandler.generate_loot();
 		}
 		
@@ -50,7 +50,7 @@ public class Chateau_Romani {
 		MinecraftForge.EVENT_BUS.register(new WitchDropHandler());
 		
         Configuration config = new Configuration(event.getSuggestedConfigurationFile());
-        ChateauConfigLoader.load(config);
+        Configuring.load(config);
         
         RecipeManager.add_recipes();
         MinecraftForge.EVENT_BUS.register(new CowHandler());
