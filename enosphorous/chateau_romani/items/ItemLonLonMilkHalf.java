@@ -35,7 +35,7 @@ public class ItemLonLonMilkHalf extends Item implements ICategorization
 		this.setMaxStackSize(1);
 		this.variant = par2;
 		this.setUnlocalizedName("lonlon_milk" + "_" + variant);
-		this.func_111206_d(Reference.MOD_ID + ":" + this.getUnlocalizedName());
+		this.setTextureName(Reference.MOD_ID + ":" + this.getUnlocalizedName());
 		
 		if (this.isBottled()){
 			

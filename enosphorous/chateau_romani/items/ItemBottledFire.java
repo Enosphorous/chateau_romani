@@ -30,7 +30,7 @@ public class ItemBottledFire extends Item implements ICategorization
 		this.setCreativeTab(CreativeTabs.tabBrewing);
 		this.setMaxStackSize(1);
 		this.setUnlocalizedName("bottled_fire");
-		this.func_111206_d(Reference.MOD_ID + ":" + this.getUnlocalizedName());
+		this.setTextureName(Reference.MOD_ID + ":" + this.getUnlocalizedName());
 		this.spawnID = par2Block.blockID;
 		
 		if (this.isBottled()){

@@ -30,7 +30,7 @@ public class ItemChateauRomani extends Item implements ICategorization
 		
 		this.setCreativeTab(CreativeTabs.tabFood);
 		this.setUnlocalizedName("chateau_romani");
-		this.func_111206_d(Reference.MOD_ID + ":" + this.getUnlocalizedName());
+		this.setTextureName(Reference.MOD_ID + ":" + this.getUnlocalizedName());
 		this.setMaxStackSize(1);
 		
 		if (this.isBottled()){

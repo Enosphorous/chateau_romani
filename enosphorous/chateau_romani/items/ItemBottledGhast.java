@@ -30,7 +30,7 @@ public class ItemBottledGhast extends Item implements ICategorization
 		this.setCreativeTab(CreativeTabs.tabBrewing);
 		this.setMaxStackSize(1);
 		this.setUnlocalizedName("bottled_ghast");
-		this.func_111206_d(Reference.MOD_ID + ":" + this.getUnlocalizedName());
+		this.setTextureName(Reference.MOD_ID + ":" + this.getUnlocalizedName());
 		
 		if (this.isBottled()){
 			

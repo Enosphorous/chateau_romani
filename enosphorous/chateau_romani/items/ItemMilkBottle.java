@@ -27,7 +27,7 @@ public class ItemMilkBottle extends Item implements ICategorization
 		
 		this.setCreativeTab(CreativeTabs.tabFood);
 		this.setUnlocalizedName("milk_bottle");
-		this.func_111206_d(Reference.MOD_ID + ":" + this.getUnlocalizedName());
+		this.setTextureName(Reference.MOD_ID + ":" + this.getUnlocalizedName());
 		this.setMaxStackSize(1);
 		
 		if (this.isBottled()){

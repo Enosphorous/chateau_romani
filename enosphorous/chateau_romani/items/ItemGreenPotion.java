@@ -30,7 +30,7 @@ public class ItemGreenPotion extends Item implements ICategorization
 		this.setCreativeTab(CreativeTabs.tabBrewing);
 		this.setMaxStackSize(8);
 		this.setUnlocalizedName("green_potion");
-		this.func_111206_d(Reference.MOD_ID + ":" + this.getUnlocalizedName());
+		this.setTextureName(Reference.MOD_ID + ":" + this.getUnlocalizedName());
 		
 		if (this.isBottled()){
 			

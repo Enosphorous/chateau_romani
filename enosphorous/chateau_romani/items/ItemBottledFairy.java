@@ -19,7 +19,7 @@ public class ItemBottledFairy extends Item implements ICategorization{
 		this.setCreativeTab(CreativeTabs.tabMisc);
 		this.setMaxStackSize(1);
 		this.setUnlocalizedName("bottled_fairy");
-		this.func_111206_d(Reference.MOD_ID + ":" + this.getUnlocalizedName());
+		this.setTextureName(Reference.MOD_ID + ":" + this.getUnlocalizedName());
 		
 		if (this.isBottled()){
 			

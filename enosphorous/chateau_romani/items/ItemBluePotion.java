@@ -30,7 +30,7 @@ public class ItemBluePotion extends Item implements ICategorization
 		this.setCreativeTab(CreativeTabs.tabBrewing);
 		this.setMaxStackSize(2);
 		this.setUnlocalizedName("blue_potion");
-		this.func_111206_d(Reference.MOD_ID + ":" + this.getUnlocalizedName());
+		this.setTextureName(Reference.MOD_ID + ":" + this.getUnlocalizedName());
 		
 		if (this.isBottled()){
 			

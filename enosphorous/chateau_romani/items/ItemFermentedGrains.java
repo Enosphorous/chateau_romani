@@ -19,7 +19,7 @@ public class ItemFermentedGrains extends Item implements ICategorization
 		
 		this.setCreativeTab(CreativeTabs.tabBrewing);
 		this.setUnlocalizedName("fermented_grains");
-		this.func_111206_d(Reference.MOD_ID + ":" + this.getUnlocalizedName());
+		this.setTextureName(Reference.MOD_ID + ":" + this.getUnlocalizedName());
 		this.setMaxStackSize(64);
 		this.setPotionEffect(PotionHelper.fermentedSpiderEyeEffect);
 	}
