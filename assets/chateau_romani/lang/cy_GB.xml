@@ -12,6 +12,11 @@
     <entry key="item.bottled_fire.name">Tân Potel</entry>
     <entry key="item.bottled_ghast.name">Ellyll Potel</entry>
     <entry key="item.ghastly_brew.name">Fragu Arswydus</entry>
+    
+    <entry key="item.potion_red.name">Diod Coch</entry>
+    <entry key="item.potion_blue.name">Diod Glas</entry>
+    <entry key="item.potion_green.name">Diod Gwyrdd</entry>
+    <entry key="item.bottled_fairy.name">Tylwyth Teg Potel</entry>
 	
     
 </properties>

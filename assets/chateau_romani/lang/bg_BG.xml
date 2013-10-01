@@ -12,6 +12,11 @@
     <entry key="item.bottled_fire.name">бутилирана пожар</entry>
     <entry key="item.bottled_ghast.name">бутилирана таласъм</entry>
     <entry key="item.ghastly_brew.name">призрачна варя</entry>
+    
+    <entry key="item.potion_red.name">червен елексир</entry>
+    <entry key="item.potion_blue.name">синя отвара</entry>
+    <entry key="item.potion_green.name">зелена отвара</entry>
+    <entry key="item.bottled_fairy.name">бутилирана фея</entry>
 	
     
 </properties>

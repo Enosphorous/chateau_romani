@@ -12,6 +12,11 @@
     <entry key="item.bottled_fire.name">εμφιαλωμένο φωτιά</entry>
     <entry key="item.bottled_ghast.name">εμφιαλωμένο φάντασμα</entry>
     <entry key="item.ghastly_brew.name">φάντασμα ετοιμάζω</entry>
+    
+    <entry key="item.potion_red.name">κόκκινο φίλτρο</entry>
+    <entry key="item.potion_blue.name">μπλε φίλτρο</entry>
+    <entry key="item.potion_green.name">πράσινο φίλτρο</entry>
+    <entry key="item.bottled_fairy.name">εμφιαλωμένο νεράιδα</entry>
 	
     
 </properties>

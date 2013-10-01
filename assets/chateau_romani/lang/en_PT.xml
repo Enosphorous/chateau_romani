@@ -12,6 +12,11 @@
     <entry key="item.bottled_fire.name">Blaze in tha Bottle</entry>
     <entry key="item.bottled_ghast.name">Ghast in tha Bottle</entry>
     <entry key="item.ghastly_brew.name">Brew o' tha Devil</entry>
+    
+    <entry key="item.potion_red.name">Red Magic Ale</entry>
+    <entry key="item.potion_blue.name">Blue Magic Ale</entry>
+    <entry key="item.potion_green.name">Green Magic Ale</entry>
+    <entry key="item.bottled_fairy.name">Tiny Witch in tha Bottle</entry>
 	
     
 </properties>

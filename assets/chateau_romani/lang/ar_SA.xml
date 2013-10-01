@@ -12,6 +12,11 @@
     <entry key="item.bottled_fire.name">النار المعبأة في زجاجات</entry>
     <entry key="item.bottled_ghast.name">الغول المعبأة في زجاجات</entry>
     <entry key="item.ghastly_brew.name">الشراب شبحي</entry>
+    
+    <entry key="item.potion_red.name">جرعة الأحمر</entry>
+    <entry key="item.potion_blue.name">جرعة الأزرق</entry>
+    <entry key="item.potion_green.name">جرعة الخضراء</entry>
+    <entry key="item.bottled_fairy.name">الجنية المعبأة في زجاجات</entry>
 	
     
 </properties>

@@ -12,6 +12,11 @@
     <entry key="item.bottled_fire.name">Bottled Fire</entry>
     <entry key="item.bottled_ghast.name">Bottled Ghast</entry>
     <entry key="item.ghastly_brew.name">Ghastly Brew</entry>
+    
+    <entry key="item.potion_red.name">Red Potion</entry>
+    <entry key="item.potion_blue.name">Blue Potion</entry>
+    <entry key="item.potion_green.name">Green Potion</entry>
+    <entry key="item.bottled_fairy.name">Bottled Fairy</entry>
 	
     
 </properties>

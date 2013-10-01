@@ -12,6 +12,11 @@
     <entry key="item.bottled_fire.name">Flaschen Feuer</entry>
     <entry key="item.bottled_ghast.name">Flaschen Geist</entry>
     <entry key="item.ghastly_brew.name">Geisterhaften Gebräu</entry>
+    
+    <entry key="item.potion_red.name">Red Trank</entry>
+    <entry key="item.potion_blue.name">Blauen Trank</entry>
+    <entry key="item.potion_green.name">Grünen Trank</entry>
+    <entry key="item.bottled_fairy.name">Flaschen Fee</entry>
 	
     
 </properties>

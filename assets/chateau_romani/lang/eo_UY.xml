@@ -12,6 +12,11 @@
     <entry key="item.bottled_fire.name">Enboteligita Fajro</entry>
     <entry key="item.bottled_ghast.name">Enboteligita Fantomo</entry>
     <entry key="item.ghastly_brew.name">Fantoma Bierfarejo</entry>
+    
+    <entry key="item.potion_red.name">Ruĝa Pocio</entry>
+    <entry key="item.potion_blue.name">Blua Pocio</entry>
+    <entry key="item.potion_green.name">Verda Pocio</entry>
+    <entry key="item.bottled_fairy.name">Enboteligita Feino</entry>
 	
     
 </properties>
