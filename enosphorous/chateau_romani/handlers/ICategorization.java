@@ -17,6 +17,8 @@ public interface ICategorization {
 	     * First version of this mod the item was included in.
 	     * 
 	     * Begins with 0.0.1.
+	     * 
+	     * Something I've been wanting in vanilla for a while.
 	     */
 	    public String getOrigin();
 	    
@@ -31,9 +33,7 @@ public interface ICategorization {
 	     */
 	    public boolean isBottled();
 	    
-	    /**
-	     * Gets a new ID system's integer (an easier way of finding items)
-	     */
+	    
 
 
 }

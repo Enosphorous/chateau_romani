@@ -1,5 +1,6 @@
 package enosphorous.chateau_romani.handlers;
 
+import enosphorous.chateau_romani.common.Configuring;
 import enosphorous.chateau_romani.common.Items;
 import enosphorous.chateau_romani.common.Reference;
 import net.minecraft.item.ItemStack;
@@ -19,6 +20,8 @@ public class LootHandler {
 		 */
 		
 		//Chateau Romani
+	if (Configuring.dungeonLoots){	
+		
 		ChestGenHooks.getInfo(ChestGenHooks.DUNGEON_CHEST).addItem(new WeightedRandomChestContent(new ItemStack(Items.chateau_romani), 1, 1, 11));
 		ChestGenHooks.getInfo(ChestGenHooks.MINESHAFT_CORRIDOR).addItem(new WeightedRandomChestContent(new ItemStack(Items.chateau_romani), 1, 1, 4));
 		ChestGenHooks.getInfo(ChestGenHooks.VILLAGE_BLACKSMITH).addItem(new WeightedRandomChestContent(new ItemStack(Items.chateau_romani), 1, 1, 7));
@@ -29,12 +32,12 @@ public class LootHandler {
 		}
 	
 		//Milk Bottle
-		ChestGenHooks.getInfo(ChestGenHooks.DUNGEON_CHEST).addItem(new WeightedRandomChestContent(new ItemStack(Items.chateau_romani), 1, 1, 13));
-		ChestGenHooks.getInfo(ChestGenHooks.BONUS_CHEST).addItem(new WeightedRandomChestContent(new ItemStack(Items.chateau_romani), 1, 1, 21));
-		ChestGenHooks.getInfo(ChestGenHooks.PYRAMID_DESERT_CHEST).addItem(new WeightedRandomChestContent(new ItemStack(Items.chateau_romani), 1, 1, 13));
-		ChestGenHooks.getInfo(ChestGenHooks.PYRAMID_JUNGLE_CHEST).addItem(new WeightedRandomChestContent(new ItemStack(Items.chateau_romani), 1, 1, 19));
-		ChestGenHooks.getInfo(ChestGenHooks.STRONGHOLD_CORRIDOR).addItem(new WeightedRandomChestContent(new ItemStack(Items.chateau_romani), 1, 1, 13));
-		ChestGenHooks.getInfo(ChestGenHooks.STRONGHOLD_LIBRARY).addItem(new WeightedRandomChestContent(new ItemStack(Items.chateau_romani), 1, 1, 31));
+		ChestGenHooks.getInfo(ChestGenHooks.DUNGEON_CHEST).addItem(new WeightedRandomChestContent(new ItemStack(Items.milk_bottle), 1, 1, 13));
+		ChestGenHooks.getInfo(ChestGenHooks.BONUS_CHEST).addItem(new WeightedRandomChestContent(new ItemStack(Items.milk_bottle), 1, 1, 21));
+		ChestGenHooks.getInfo(ChestGenHooks.PYRAMID_DESERT_CHEST).addItem(new WeightedRandomChestContent(new ItemStack(Items.milk_bottle), 1, 1, 13));
+		ChestGenHooks.getInfo(ChestGenHooks.PYRAMID_JUNGLE_CHEST).addItem(new WeightedRandomChestContent(new ItemStack(Items.milk_bottle), 1, 1, 19));
+		ChestGenHooks.getInfo(ChestGenHooks.STRONGHOLD_CORRIDOR).addItem(new WeightedRandomChestContent(new ItemStack(Items.milk_bottle), 1, 1, 13));
+		ChestGenHooks.getInfo(ChestGenHooks.STRONGHOLD_LIBRARY).addItem(new WeightedRandomChestContent(new ItemStack(Items.milk_bottle), 1, 1, 31));
 		
 		if (Reference.FORCE_DEBUG){
 			System.out.println("[CHATEAU ROMANI] Item 'Milk Bottle' added as loot successfully.");
@@ -73,6 +76,7 @@ public class LootHandler {
 		if (Reference.FORCE_DEBUG){
 			System.out.println("[CHATEAU ROMANI] Items 'Potions' added as loot successfully.");
 		}
+	}	
 	
 		
 		if (Reference.FORCE_DEBUG){

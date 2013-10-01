@@ -42,6 +42,7 @@ public class Chateau_Romani {
 		}
 		
 		Items.initialize();
+		
 		if (Configuring.dungeonLoots){
 		LootHandler.generate_loot();
 		}
