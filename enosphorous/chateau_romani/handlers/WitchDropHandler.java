@@ -57,4 +57,40 @@ public class WitchDropHandler {
 			}
 		}
 	}
+	
+	@ForgeSubscribe
+	public void onEntityDrop5(LivingDropsEvent event) {
+		if (event.source.getDamageType().equals("player")) { 
+			rand = Math.random();
+			if (event.entityLiving instanceof EntityWitch) {
+				if (rand < 0.05D) { 
+					event.entityLiving.dropItem(Items.potion_red.itemID, 1);
+				}
+			}
+		}
+	}
+	
+	@ForgeSubscribe
+	public void onEntityDrop6(LivingDropsEvent event) {
+		if (event.source.getDamageType().equals("player")) { 
+			rand = Math.random();
+			if (event.entityLiving instanceof EntityWitch) {
+				if (rand < 0.05D) { 
+					event.entityLiving.dropItem(Items.potion_green.itemID, 1);
+				}
+			}
+		}	
+	}
+	
+	@ForgeSubscribe
+	public void onEntityDrop7(LivingDropsEvent event) {
+		if (event.source.getDamageType().equals("player")) { 
+			rand = Math.random();
+			if (event.entityLiving instanceof EntityWitch) {
+				if (rand < 0.02D) { 
+					event.entityLiving.dropItem(Items.potion_blue.itemID, 1);
+				}
+			}
+		}
+	}
 }
