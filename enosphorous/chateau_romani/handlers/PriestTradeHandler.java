@@ -48,6 +48,12 @@ recipeList.add(new MerchantRecipe(new ItemStack(Item.emerald, 8), new ItemStack(
 recipeList.add(new MerchantRecipe(new ItemStack(Items.potion_green, 1), new ItemStack(Item.emerald, 8, 0)));
 recipeList.add(new MerchantRecipe(new ItemStack(Item.emerald, 6), new ItemStack(Items.potion_green, 1, 0)));
 recipeList.add(new MerchantRecipe(new ItemStack(Items.potion_green, 1), new ItemStack(Item.emerald, 6, 0)));
+
+/**
+ * CrayTokensAPI stuff.
+ */
+
+
 ///Item.emerald is the cost and amount
 ///YourMod.yourItem/Block is the item or block you wish to have sold and the amount you get
 
