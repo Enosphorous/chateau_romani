@@ -23,7 +23,7 @@ public class RecipeManager {
 		
 		//Ghastly Brew
 		GameRegistry.addShapelessRecipe(new ItemStack(Items.ghastly_brew), new Object[]{Items.bottled_fire, Items.bottled_ghast, Item.netherStalkSeeds});
-
+	
 		if (Reference.FORCE_DEBUG){
 			System.out.println("[CHATEAU ROMANI] Found and added " + Reference.RECIPE_COUNT + " recipes.");
 		}
