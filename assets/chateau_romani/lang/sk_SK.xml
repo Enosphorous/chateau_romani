@@ -12,6 +12,11 @@
     <entry key="item.bottled_fire.name">Fľaškové Oheň</entry>
     <entry key="item.bottled_ghast.name">Fľaškové Duch</entry>
     <entry key="item.ghastly_brew.name">Strašidelný Variť</entry>
+    
+    <entry key="item.potion_red.name">Cervený Lektvar</entry>
+    <entry key="item.potion_blue.name">Modrý Lektvar</entry>
+    <entry key="item.potion_green.name">Zelený Lektvar</entry>
+    <entry key="item.bottled_fairy.name">Fľaškové Víla</entry>
 	
     
 </properties>

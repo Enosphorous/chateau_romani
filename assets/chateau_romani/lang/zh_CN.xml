@@ -12,6 +12,11 @@
     <entry key="item.bottled_fire.name">瓶裝火</entry>
     <entry key="item.bottled_ghast.name">瓶裝鬼</entry>
     <entry key="item.ghastly_brew.name">幽靈般的沖泡</entry>
+    
+    <entry key="item.potion_red.name">紅藥水</entry>
+    <entry key="item.potion_blue.name">藍色藥水</entry>
+    <entry key="item.potion_green.name">綠色藥水</entry>
+    <entry key="item.bottled_fairy.name">瓶裝童話</entry>
 	
     
 </properties>

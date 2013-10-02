@@ -12,6 +12,11 @@
     <entry key="item.bottled_fire.name">बोतलबंद आग</entry>
     <entry key="item.bottled_ghast.name">बोतलबंद भूत</entry>
     <entry key="item.ghastly_brew.name">प्रेत का काढ़ा</entry>
+    
+    <entry key="item.potion_red.name">लाल औषधि</entry>
+    <entry key="item.potion_blue.name">नीले औषधि</entry>
+    <entry key="item.potion_green.name">हरी औषधि</entry>
+    <entry key="item.bottled_fairy.name">बोतल परी</entry>
 	
     
 </properties>

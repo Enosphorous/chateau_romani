@@ -12,6 +12,12 @@
     <entry key="item.bottled_fire.name">Lửa đóng chai</entry>
     <entry key="item.bottled_ghast.name">Ma dóng chai</entry>
     <entry key="item.ghastly_brew.name">Uống ma quái</entry>
+
+    <entry key="item.potion_red.name">Lọ Thuốc Màu Dỏ</entry>
+    <entry key="item.potion_blue.name">Thuốc Màu Xanh</entry>
+    <entry key="item.potion_green.name">Thuốc Màu Zanh lá Cây</entry>
+    <entry key="item.bottled_fairy.name">Dóng Chai cổ Tích</entry>
+    
 	
     
 </properties>

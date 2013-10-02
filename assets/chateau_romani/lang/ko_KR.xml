@@ -12,6 +12,11 @@
     <entry key="item.bottled_fire.name">병에 불</entry>
     <entry key="item.bottled_ghast.name">병에 유령</entry>
     <entry key="item.ghastly_brew.name">유령의 양조</entry>
+    
+    <entry key="item.potion_red.name">빨간 물약</entry>
+    <entry key="item.potion_blue.name">파란 물약</entry>
+    <entry key="item.potion_green.name">녹색 물약</entry>
+    <entry key="item.bottled_fairy.name">병 요정</entry>
 	
     
 </properties>

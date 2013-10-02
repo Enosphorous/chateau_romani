@@ -12,6 +12,11 @@
     <entry key="item.bottled_fire.name">ไฟไหม้ดื่มบรรจุขวด</entry>
     <entry key="item.bottled_ghast.name">ผีดื่มบรรจุขวด</entry>
     <entry key="item.ghastly_brew.name">ชงผี</entry>
+    
+    <entry key="item.potion_red.name">ยาสีแดง</entry>
+    <entry key="item.potion_blue.name">ยาสีน้ำเงิน</entry>
+    <entry key="item.potion_green.name">ยาสีเขียว</entry>
+    <entry key="item.bottled_fairy.name">ดื่มบรรจุขวดนางฟ้า</entry>
 	
     
 </properties>

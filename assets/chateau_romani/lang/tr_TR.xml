@@ -12,6 +12,11 @@
     <entry key="item.bottled_fire.name">Sişe Yangın</entry>
     <entry key="item.bottled_ghast.name">Sişe Hayalet</entry>
     <entry key="item.ghastly_brew.name">Hayalet Demlemek</entry>
+    
+    <entry key="item.potion_red.name">Kırmızı Iksir</entry>
+    <entry key="item.potion_blue.name">Mavi Iksir</entry>
+    <entry key="item.potion_green.name">Yeşil Iksir</entry>
+    <entry key="item.bottled_fairy.name">Sişe Peri</entry>
 	
     
 </properties>

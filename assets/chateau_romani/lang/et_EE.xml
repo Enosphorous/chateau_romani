@@ -12,6 +12,11 @@
     <entry key="item.bottled_fire.name">Villitud tulekahju</entry>
     <entry key="item.bottled_ghast.name">Villitud Kummitus</entry>
     <entry key="item.ghastly_brew.name">Kummituslik Pruulima</entry>
+    
+    <entry key="item.potion_red.name">Punane Jook</entry>
+    <entry key="item.potion_blue.name">Sinine Jook</entry>
+    <entry key="item.potion_green.name">Roheline Jook</entry>
+    <entry key="item.bottled_fairy.name">Villitud Haldjas</entry>
 	
     
 </properties>

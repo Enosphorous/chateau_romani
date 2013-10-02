@@ -12,6 +12,11 @@
     <entry key="item.bottled_fire.name">Gebotteld Brand</entry>
     <entry key="item.bottled_ghast.name">Gebotteld Ghast</entry>
     <entry key="item.ghastly_brew.name">Spookachtige Brouwsel</entry>
+    
+    <entry key="item.potion_red.name">Red Potion</entry>
+    <entry key="item.potion_blue.name">Blauwe Potion</entry>
+    <entry key="item.potion_green.name">Groene Potion</entry>
+    <entry key="item.bottled_fairy.name">Gebotteld Fee</entry>
 	
     
 </properties>

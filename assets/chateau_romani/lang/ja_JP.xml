@@ -12,6 +12,11 @@
     <entry key="item.bottled_fire.name">ボトル入り火</entry>
     <entry key="item.bottled_ghast.name">瓶詰めゴースト</entry>
     <entry key="item.ghastly_brew.name">幽霊のような醸造</entry>
+    
+    <entry key="item.potion_red.name">赤ポーション</entry>
+    <entry key="item.potion_blue.name">青ポーション</entry>
+    <entry key="item.potion_green.name">グリーンポーション</entry>
+    <entry key="item.bottled_fairy.name">瓶詰め妖精</entry>
 	
     
 </properties>

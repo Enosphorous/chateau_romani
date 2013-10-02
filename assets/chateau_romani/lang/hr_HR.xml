@@ -12,6 +12,11 @@
     <entry key="item.bottled_fire.name">Bocama Požara</entry>
     <entry key="item.bottled_ghast.name">Bocama Zloduh</entry>
     <entry key="item.ghastly_brew.name">Sablasno Pivo</entry>
+    
+    <entry key="item.potion_red.name">Crveni Napitak</entry>
+    <entry key="item.potion_blue.name">Plavi Napitak</entry>
+    <entry key="item.potion_green.name">Zeleni Napitak</entry>
+    <entry key="item.bottled_fairy.name">Bocama Vila</entry>
 	
     
 </properties>

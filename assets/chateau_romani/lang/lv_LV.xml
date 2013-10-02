@@ -12,6 +12,11 @@
     <entry key="item.bottled_fire.name">Pudelēs Uguns</entry>
     <entry key="item.bottled_ghast.name">Pudelēs Spoku</entry>
     <entry key="item.ghastly_brew.name">Spoku Brūvēt</entry>
+    
+    <entry key="item.potion_red.name">Sarkans Mikstūra</entry>
+    <entry key="item.potion_blue.name">Zils Mikstūra</entry>
+    <entry key="item.potion_green.name">Zaļa Mikstūra</entry>
+    <entry key="item.bottled_fairy.name">Pudelēs Pasaku</entry>
 	
     
 </properties>

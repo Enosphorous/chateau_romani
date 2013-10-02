@@ -12,6 +12,11 @@
     <entry key="item.bottled_fire.name">Fire Butelkowana</entry>
     <entry key="item.bottled_ghast.name">Duch Butelkowana</entry>
     <entry key="item.ghastly_brew.name">Upiorne Brew</entry>
+    
+    <entry key="item.potion_red.name">Czerwony Eliksir</entry>
+    <entry key="item.potion_blue.name">Niebieski Eliksir</entry>
+    <entry key="item.potion_green.name">Zielony Eliksir</entry>
+    <entry key="item.bottled_fairy.name">Wróżka Butelkowana</entry>
 	
     
 </properties>

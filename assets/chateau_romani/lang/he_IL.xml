@@ -13,6 +13,11 @@
     <entry key="item.bottled_ghast.name">בקבוקי מבעיתן</entry>
     <entry key="item.ghastly_brew.name">לחלוט רפאים</entry>
     
+    <entry key="item.potion_red.name">שיקוי אדום</entry>
+    <entry key="item.potion_blue.name">שיקוי כחול</entry>
+    <entry key="item.potion_green.name">שיקוי ירוק</entry>
+    <entry key="item.bottled_fairy.name">פיות בקבוקים</entry>
+    
 	
     
 </properties>

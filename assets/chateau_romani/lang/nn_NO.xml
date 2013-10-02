@@ -12,6 +12,11 @@
     <entry key="item.bottled_fire.name">Buteljerat brand</entry>
     <entry key="item.bottled_ghast.name">Buteljerat spöke</entry>
     <entry key="item.ghastly_brew.name">Ghostly Brygd</entry>
+    
+    <entry key="item.potion_red.name">Röd Potion</entry>
+    <entry key="item.potion_blue.name">Blå Potion</entry>
+    <entry key="item.potion_green.name">Grön Potion</entry>
+    <entry key="item.bottled_fairy.name">Flaska Fairy</entry>
 	
     
 </properties>

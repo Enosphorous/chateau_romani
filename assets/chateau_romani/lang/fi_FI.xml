@@ -12,6 +12,11 @@
     <entry key="item.bottled_fire.name">Pullotettua Palo</entry>
     <entry key="item.bottled_ghast.name">Pullotettua Ghastin</entry>
     <entry key="item.ghastly_brew.name">Aavemainen Hautua</entry>
+    
+    <entry key="item.potion_red.name">Punainen Juoma</entry>
+    <entry key="item.potion_blue.name">Sininen Juoma</entry>
+    <entry key="item.potion_green.name">Vihreä Juoma</entry>
+    <entry key="item.bottled_fairy.name">Pullotettua Keiju</entry>
 	
     
 </properties>

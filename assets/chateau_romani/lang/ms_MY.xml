@@ -12,6 +12,11 @@
     <entry key="item.bottled_fire.name">Api Botol</entry>
     <entry key="item.bottled_ghast.name">Hantu Botol</entry>
     <entry key="item.ghastly_brew.name">Bru Hantu</entry>
+    
+    <entry key="item.potion_red.name">Obat Merah</entry>
+    <entry key="item.potion_blue.name">Obat Biru</entry>
+    <entry key="item.potion_green.name">Minuman Hijau</entry>
+    <entry key="item.bottled_fairy.name">Botol Dongeng</entry>
 	
     
 </properties>

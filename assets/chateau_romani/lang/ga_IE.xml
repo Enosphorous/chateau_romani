@@ -12,6 +12,11 @@
     <entry key="item.bottled_fire.name">Tine i Mbuidéil</entry>
     <entry key="item.bottled_ghast.name">Buidéalaithe Ghast</entry>
     <entry key="item.ghastly_brew.name">Brew Ghastly</entry>
+    
+    <entry key="item.potion_red.name">Potion Dearg</entry>
+    <entry key="item.potion_blue.name">Potion Gorm</entry>
+    <entry key="item.potion_green.name">Potion Glas</entry>
+    <entry key="item.bottled_fairy.name">Fairy i Mbuidéil</entry>
 	
     
 </properties>

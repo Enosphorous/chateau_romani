@@ -13,5 +13,10 @@
     <entry key="item.bottled_fire.name">флаширана пожара</entry>
     <entry key="item.bottled_ghast.name">флаширана Гхост</entry>
 	<entry key="item.ghastly_brew.name">сабластан варити</entry>
+	
+	<entry key="item.potion_red.name">црвени напитак</entry>
+    <entry key="item.potion_blue.name">плава напитак</entry>
+    <entry key="item.potion_green.name">Напитак зелена</entry>
+    <entry key="item.bottled_fairy.name">флаширана вила</entry>
     
 </properties>

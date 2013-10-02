@@ -12,6 +12,11 @@
     <entry key="item.bottled_fire.name">бутылках огня</entry>
     <entry key="item.bottled_ghast.name">бутылках призрак</entry>
     <entry key="item.ghastly_brew.name">призрачные напиток</entry>
+    
+    <entry key="item.potion_red.name">красный напиток</entry>
+    <entry key="item.potion_blue.name">синие зелья</entry>
+    <entry key="item.potion_green.name">зеленого зелья</entry>
+    <entry key="item.bottled_fairy.name">бутылках фея</entry>
 	
     
 </properties>

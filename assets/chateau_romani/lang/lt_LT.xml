@@ -13,6 +13,11 @@
     <entry key="item.bottled_ghast.name">Buteliuose Vaiduoklis</entry>
     <entry key="item.ghastly_brew.name">Vaiduokliškas Užvirinti</entry>
     
+    <entry key="item.potion_red.name">Raudona Gėrimas</entry>
+    <entry key="item.potion_blue.name">Mėlyna Potion</entry>
+    <entry key="item.potion_green.name">Zalia Gėrimas</entry>
+    <entry key="item.bottled_fairy.name">Buteliuose Fėja</entry>
+    
 	
     
 </properties>

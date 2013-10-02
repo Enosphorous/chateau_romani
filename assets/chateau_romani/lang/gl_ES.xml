@@ -13,6 +13,11 @@
     <entry key="item.bottled_ghast.name">Buidéalaithe Ghast</entry>
     <entry key="item.ghastly_brew.name">Bebida Fantasmagórica</entry>
     
+    <entry key="item.potion_red.name">Poção Vermelha</entry>
+    <entry key="item.potion_blue.name">Poção Azul</entry>
+    <entry key="item.potion_green.name">Poção Verde</entry>
+    <entry key="item.bottled_fairy.name">Fadas Engarrafada</entry>
+    
 	
     
 </properties>

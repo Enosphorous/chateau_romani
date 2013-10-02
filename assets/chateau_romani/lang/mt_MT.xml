@@ -12,6 +12,11 @@
     <entry key="item.bottled_fire.name">Nar Ibbottiljat</entry>
     <entry key="item.bottled_ghast.name">Ibbottiljat Ghast</entry>
     <entry key="item.ghastly_brew.name">Xarba Dimostrazzjo</entry>
+    
+    <entry key="item.potion_red.name">Potion Aħmar</entry>
+    <entry key="item.potion_blue.name">Potion Blu</entry>
+    <entry key="item.potion_green.name">Potion Aħdar</entry>
+    <entry key="item.bottled_fairy.name">Fairy Ibbottiljat</entry>
 	
     
 </properties>

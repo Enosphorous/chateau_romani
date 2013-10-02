@@ -12,5 +12,10 @@
     <entry key="item.bottled_fire.name">Foc Imbuteliată</entry>
     <entry key="item.bottled_ghast.name">Imbuteliată Ghast</entry>
 	<entry key="item.ghastly_brew.name">Bere Fantomatic</entry>
+	
+	<entry key="item.potion_red.name">Poțiune Roșu</entry>
+    <entry key="item.potion_blue.name">Poțiune Albastru</entry>
+    <entry key="item.potion_green.name">Poțiune Verde</entry>
+    <entry key="item.bottled_fairy.name">Imbuteliată Zână</entry>
     
 </properties>

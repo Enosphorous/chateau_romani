@@ -12,6 +12,11 @@
     <entry key="item.bottled_fire.name">Palackozott Tűz</entry>
     <entry key="item.bottled_ghast.name">Palackozott Szellem</entry>
     <entry key="item.ghastly_brew.name">Kísérteties Sört</entry>
+    
+    <entry key="item.potion_red.name">Piros Főzet</entry>
+    <entry key="item.potion_blue.name">Kék Ital</entry>
+    <entry key="item.potion_green.name">Zöld Ital</entry>
+    <entry key="item.bottled_fairy.name">Palackozott Tündér</entry>
 	
     
 </properties>

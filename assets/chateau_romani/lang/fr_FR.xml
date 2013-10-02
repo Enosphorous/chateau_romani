@@ -12,6 +12,11 @@
     <entry key="item.bottled_fire.name">Feu en Bouteille</entry>
     <entry key="item.bottled_ghast.name">Fantôme Bouteille</entry>
     <entry key="item.ghastly_brew.name">Brew Fantomatique</entry>
+    
+    <entry key="item.potion_red.name">Potion Rouge</entry>
+    <entry key="item.potion_blue.name">Potion Bleu</entry>
+    <entry key="item.potion_green.name">Potion Verte</entry>
+    <entry key="item.bottled_fairy.name">Bouteille de Fées</entry>
 	
     
 </properties>

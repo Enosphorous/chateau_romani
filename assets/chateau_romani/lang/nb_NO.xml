@@ -12,6 +12,11 @@
     <entry key="item.bottled_fire.name">Flaskevann brann</entry>
     <entry key="item.bottled_ghast.name">Flaskevann spøkelse</entry>
     <entry key="item.ghastly_brew.name">Spøkelsesaktig Brygg</entry>
+    
+    <entry key="item.potion_red.name">Røde Potion</entry>
+    <entry key="item.potion_blue.name">Blue Potion</entry>
+    <entry key="item.potion_green.name">Grønn Potion</entry>
+    <entry key="item.bottled_fairy.name">Flaske Fairy</entry>
 	
     
 </properties>

@@ -12,6 +12,11 @@
     <entry key="item.bottled_fire.name">пляшках вогню</entry>
     <entry key="item.bottled_ghast.name">пляшках привид</entry>
     <entry key="item.ghastly_brew.name">примарні напій</entry>
+    
+    <entry key="item.potion_red.name">червоний напій</entry>
+    <entry key="item.potion_blue.name">сині зілля</entry>
+    <entry key="item.potion_green.name">зеленого зілля</entry>
+    <entry key="item.bottled_fairy.name">пляшках фея</entry>
 	
     
 </properties>
