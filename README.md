@@ -8,6 +8,10 @@
 
 - **SynthTones** - Helped A LOT with FireHandler.
 
+## Overview
+
+- A full-on brewing overhaul, in very early stages.
+
 ## Changelog
        Version 0.0.2
        -Added Bottled Fire for later use.
