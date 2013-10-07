@@ -9,7 +9,7 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.village.MerchantRecipe;
 import net.minecraft.village.MerchantRecipeList;
 import cpw.mods.fml.common.registry.VillagerRegistry.IVillageTradeHandler;
-import enosphorous.chateau_romani.common.Items;
+import enosphorous.chateau_romani.common.CItems;
 import enosphorous.chateau_romani.common.Reference;
 
 public class FarmerTradeHandler implements IVillageTradeHandler
@@ -18,12 +18,10 @@ public class FarmerTradeHandler implements IVillageTradeHandler
 @Override
 public void manipulateTradesForVillager(EntityVillager villager, MerchantRecipeList recipeList, Random random)
 {
-recipeList.add(new MerchantRecipe(new ItemStack(Item.emerald, 3), new ItemStack(Items.milk_bottle, 1, 0)));
-recipeList.add(new MerchantRecipe(new ItemStack(Item.emerald, 2), new ItemStack(Items.milk_bottle, 1, 0)));
-recipeList.add(new MerchantRecipe(new ItemStack(Item.emerald, 4), new ItemStack(Items.milk_bottle, 1, 0)));
-recipeList.add(new MerchantRecipe(new ItemStack(Items.milk_bottle, 1), new ItemStack(Item.emerald, 2, 0)));
-recipeList.add(new MerchantRecipe(new ItemStack(Items.milk_bottle, 1), new ItemStack(Item.emerald, 3, 0)));
-recipeList.add(new MerchantRecipe(new ItemStack(Items.milk_bottle, 1), new ItemStack(Item.emerald, 4, 0)));
+recipeList.add(new MerchantRecipe(new ItemStack(Item.emerald, 3), new ItemStack(CItems.milk_bottle, 1, 0)));
+recipeList.add(new MerchantRecipe(new ItemStack(Item.emerald, 2), new ItemStack(CItems.milk_bottle, 1, 0)));
+recipeList.add(new MerchantRecipe(new ItemStack(Item.emerald, 4), new ItemStack(CItems.milk_bottle, 1, 0)));
+recipeList.add(new MerchantRecipe(new ItemStack(CItems.milk_bottle, 1), new ItemStack(Item.emerald, 1, 0)));
 ///Item.emerald is the cost and amount
 ///YourMod.yourItem/Block is the item or block you wish to have sold and the amount you get
 

@@ -2,7 +2,7 @@ package enosphorous.chateau_romani.items;
 
 import java.util.Random;
 
-import enosphorous.chateau_romani.common.Items;
+import enosphorous.chateau_romani.common.CItems;
 import enosphorous.chateau_romani.common.Reference;
 import enosphorous.chateau_romani.handlers.EnumDrinkType;
 import enosphorous.chateau_romani.handlers.ICategorization;

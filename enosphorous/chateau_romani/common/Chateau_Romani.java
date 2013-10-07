@@ -1,7 +1,9 @@
 package enosphorous.chateau_romani.common;
 
+import net.minecraft.item.EnumToolMaterial;
 import net.minecraft.item.Item;
 import net.minecraftforge.common.Configuration;
+import net.minecraftforge.common.EnumHelper;
 import net.minecraftforge.common.MinecraftForge;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.Instance;
@@ -11,6 +13,8 @@ import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.event.FMLServerStartingEvent;
 import cpw.mods.fml.common.network.NetworkMod;
+import cpw.mods.fml.common.network.NetworkRegistry;
+import enosphorous.chateau_romani.brewery.BreweryGuiHandler;
 import enosphorous.chateau_romani.handlers.CowHandler;
 import enosphorous.chateau_romani.handlers.FireHandler;
 import enosphorous.chateau_romani.handlers.GhastHandler;
@@ -41,7 +45,7 @@ public class Chateau_Romani {
 			System.out.println("[CHATEAU ROMANI] Debug mode is false. Release environment detected.");
 		}
 		
-		Items.initialize();
+		CItems.initialize();
 		
 		if (Configuring.dungeonLoots){
 		LootHandler.generate_loot();
@@ -57,6 +61,7 @@ public class Chateau_Romani {
         MinecraftForge.EVENT_BUS.register(new CowHandler());
         MinecraftForge.EVENT_BUS.register(new GhastHandler());
         MinecraftForge.EVENT_BUS.register(new FireHandler());
+        NetworkRegistry.instance().registerGuiHandler(this, new BreweryGuiHandler());
 	}
 
 	@Mod.EventHandler

@@ -1,6 +1,6 @@
 package enosphorous.chateau_romani.handlers;
 
-import enosphorous.chateau_romani.common.Items;
+import enosphorous.chateau_romani.common.CItems;
 import net.minecraft.entity.item.EntityItem;
 import net.minecraft.entity.monster.EntityWitch;
 import net.minecraft.item.Item;
@@ -16,7 +16,7 @@ public class WitchDropHandler {
 			rand = Math.random();
 			if (event.entityLiving instanceof EntityWitch) {
 				if (rand < 0.3D) { 
-					event.entityLiving.dropItem(Items.fermented_grain.itemID, 2);
+					event.entityLiving.dropItem(CItems.fermented_grain.itemID, 2);
 				}
 			}
 		}
@@ -28,7 +28,7 @@ public class WitchDropHandler {
 			rand = Math.random();
 			if (event.entityLiving instanceof EntityWitch) {
 				if (rand < 0.3D) { 
-					event.entityLiving.dropItem(Items.milk_bottle.itemID, 1);
+					event.entityLiving.dropItem(CItems.milk_bottle.itemID, 1);
 				}
 			}
 		}
@@ -40,7 +40,7 @@ public class WitchDropHandler {
 			rand = Math.random();
 			if (event.entityLiving instanceof EntityWitch) {
 				if (rand < 0.1D) { 
-					event.entityLiving.dropItem(Items.bottled_fire.itemID, 1);
+					event.entityLiving.dropItem(CItems.bottled_fire.itemID, 1);
 				}
 			}
 		}
@@ -52,7 +52,7 @@ public class WitchDropHandler {
 			rand = Math.random();
 			if (event.entityLiving instanceof EntityWitch) {
 				if (rand < 0.03D) { 
-					event.entityLiving.dropItem(Items.bottled_ghast.itemID, 1);
+					event.entityLiving.dropItem(CItems.bottled_ghast.itemID, 1);
 				}
 			}
 		}
@@ -64,7 +64,7 @@ public class WitchDropHandler {
 			rand = Math.random();
 			if (event.entityLiving instanceof EntityWitch) {
 				if (rand < 0.05D) { 
-					event.entityLiving.dropItem(Items.potion_red.itemID, 1);
+					event.entityLiving.dropItem(CItems.potion_red.itemID, 1);
 				}
 			}
 		}
@@ -76,7 +76,7 @@ public class WitchDropHandler {
 			rand = Math.random();
 			if (event.entityLiving instanceof EntityWitch) {
 				if (rand < 0.05D) { 
-					event.entityLiving.dropItem(Items.potion_green.itemID, 1);
+					event.entityLiving.dropItem(CItems.potion_green.itemID, 1);
 				}
 			}
 		}	
@@ -88,7 +88,7 @@ public class WitchDropHandler {
 			rand = Math.random();
 			if (event.entityLiving instanceof EntityWitch) {
 				if (rand < 0.02D) { 
-					event.entityLiving.dropItem(Items.potion_blue.itemID, 1);
+					event.entityLiving.dropItem(CItems.potion_blue.itemID, 1);
 				}
 			}
 		}

@@ -1,6 +1,6 @@
 package enosphorous.chateau_romani.handlers;
 
-import enosphorous.chateau_romani.common.Items;
+import enosphorous.chateau_romani.common.CItems;
 import net.minecraft.entity.passive.EntityCow;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.Item;
@@ -20,7 +20,7 @@ if (event.target != null && event.target instanceof EntityCow && player.getHeldI
 {
     if (player.getHeldItem().stackSize-- == 1)
     {
-        player.inventory.setInventorySlotContents(player.inventory.currentItem, new ItemStack(Items.milk_bottle));
+        player.inventory.setInventorySlotContents(player.inventory.currentItem, new ItemStack(CItems.milk_bottle));
     }
 }
 }

@@ -12,7 +12,7 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.potion.Potion;
 import net.minecraft.potion.PotionEffect;
 import net.minecraft.world.World;
-import enosphorous.chateau_romani.common.Items;
+import enosphorous.chateau_romani.common.CItems;
 import enosphorous.chateau_romani.common.Reference;
 import enosphorous.chateau_romani.handlers.EnumDrinkType;
 import enosphorous.chateau_romani.handlers.ICategorization;

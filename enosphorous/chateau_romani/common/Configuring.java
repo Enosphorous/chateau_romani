@@ -24,6 +24,8 @@ public class Configuring {
     public static int     potion_blueID                      = 11910;
     public static int     bottled_fairyID                    = 11911;
     
+    public static int     breweryID                          = 3570;
+    
     public static boolean dungeonLoots                       = true;
     public static boolean newTrades                          = true;
 
@@ -50,21 +52,23 @@ public class Configuring {
             Configuring.potion_blueID = config.get(Configuring.CategoryItemIDs, "blue potion id", 11910).getInt(11910);
             Configuring.bottled_fairyID = config.get(Configuring.CategoryItemIDs, "bottle fairy id", 11911).getInt(11911);
 
+            Configuring.breweryID = config.get(Configuring.CategoryBlockIDs, "brewery id", 3570).getInt(3570);
+            
             Configuring.dungeonLoots = config.get(Configuring.CategoryGlobal, "dungeon loot enabled", true).getBoolean(true);
             Configuring.newTrades = config.get(Configuring.CategoryGlobal, "edited villager trades enabled", true).getBoolean(true);
             
             if (Reference.FORCE_DEBUG){
     			System.out.println("[CHATEAU ROMANI] String printing - Item IDs");
-    			System.out.println("[CHATEAU ROMANI] Chateau Romani - " + Items.chateau_romani.itemID);
-    			System.out.println("[CHATEAU ROMANI] Milk Bottle - " + Items.milk_bottle.itemID);
-    			System.out.println("[CHATEAU ROMANI] Fermented Grains - " + Items.fermented_grain.itemID);
-    			System.out.println("[CHATEAU ROMANI] LonLon Milk - " + Items.lonlon_milk_full.itemID + ", " + Items.lonlon_milk_half.itemID);
-    			System.out.println("[CHATEAU ROMANI] Bottled Fire - " + Items.bottled_fire.itemID);
-    			System.out.println("[CHATEAU ROMANI] Bottled Ghast - " + Items.bottled_ghast.itemID);
-    			System.out.println("[CHATEAU ROMANI] Ghastly Brew - " + Items.ghastly_brew.itemID);
+    			System.out.println("[CHATEAU ROMANI] Chateau Romani - " + CItems.chateau_romani.itemID);
+    			System.out.println("[CHATEAU ROMANI] Milk Bottle - " + CItems.milk_bottle.itemID);
+    			System.out.println("[CHATEAU ROMANI] Fermented Grains - " + CItems.fermented_grain.itemID);
+    			System.out.println("[CHATEAU ROMANI] LonLon Milk - " + CItems.lonlon_milk_full.itemID + ", " + CItems.lonlon_milk_half.itemID);
+    			System.out.println("[CHATEAU ROMANI] Bottled Fire - " + CItems.bottled_fire.itemID);
+    			System.out.println("[CHATEAU ROMANI] Bottled Ghast - " + CItems.bottled_ghast.itemID);
+    			System.out.println("[CHATEAU ROMANI] Ghastly Brew - " + CItems.ghastly_brew.itemID);
     			
-    			System.out.println("[CHATEAU ROMANI] Potions - " + Items.potion_red.itemID + ", " + Items.potion_green.itemID + ", " + Items.potion_blue.itemID);
-    			System.out.println("[CHATEAU ROMANI] Bottled Fairy - " + Items.bottled_fairy.itemID);
+    			System.out.println("[CHATEAU ROMANI] Potions - " + CItems.potion_red.itemID + ", " + CItems.potion_green.itemID + ", " + CItems.potion_blue.itemID);
+    			System.out.println("[CHATEAU ROMANI] Bottled Fairy - " + CItems.bottled_fairy.itemID);
             }
             
             System.out.println("[CHATEAU ROMANI] Configuration file loaded.");

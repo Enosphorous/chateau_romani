@@ -12,7 +12,7 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.world.World;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
-import enosphorous.chateau_romani.common.Items;
+import enosphorous.chateau_romani.common.CItems;
 import enosphorous.chateau_romani.common.Reference;
 import enosphorous.chateau_romani.handlers.EnumDrinkType;
 import enosphorous.chateau_romani.handlers.ICategorization;

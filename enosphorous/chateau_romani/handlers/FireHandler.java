@@ -8,7 +8,7 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.world.World;
 import net.minecraftforge.event.ForgeSubscribe;
 import net.minecraftforge.event.entity.player.PlayerInteractEvent;
-import enosphorous.chateau_romani.common.Items;
+import enosphorous.chateau_romani.common.CItems;
 
 public class FireHandler
 {
@@ -19,7 +19,7 @@ EntityPlayer player = event.entityPlayer;
 InventoryPlayer inv = player.inventory;
 if(player.worldObj.getBlockId(event.x, event.y + 1, event.z) == Block.fire.blockID && inv.getCurrentItem() !=null && inv.getCurrentItem().itemID == Item.glassBottle.itemID)
 {
-	player.inventory.setInventorySlotContents(player.inventory.currentItem, new ItemStack(Items.bottled_fire));
+	player.inventory.setInventorySlotContents(player.inventory.currentItem, new ItemStack(CItems.bottled_fire));
 	player.worldObj.setBlockToAir(event.x, event.y + 1, event.z);
 }
     }

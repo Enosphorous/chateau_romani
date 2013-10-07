@@ -15,7 +15,7 @@ import net.minecraft.potion.PotionEffect;
 import net.minecraft.world.World;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
-import enosphorous.chateau_romani.common.Items;
+import enosphorous.chateau_romani.common.CItems;
 import enosphorous.chateau_romani.common.Reference;
 import enosphorous.chateau_romani.handlers.EnumDrinkType;
 import enosphorous.chateau_romani.handlers.ICategorization;
@@ -58,7 +58,7 @@ public class ItemLonLonMilk extends Item implements ICategorization
             par3EntityPlayer.extinguish();
         }
 
-        return par1ItemStack.stackSize <= 0 ? new ItemStack(Items.lonlon_milk_half) : par1ItemStack;
+        return par1ItemStack.stackSize <= 0 ? new ItemStack(CItems.lonlon_milk_half) : par1ItemStack;
     }
 	
 	 /**
