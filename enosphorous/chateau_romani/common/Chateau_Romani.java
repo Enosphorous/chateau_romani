@@ -15,6 +15,9 @@ import cpw.mods.fml.common.event.FMLServerStartingEvent;
 import cpw.mods.fml.common.network.NetworkMod;
 import cpw.mods.fml.common.network.NetworkRegistry;
 import enosphorous.chateau_romani.brewery.BreweryGuiHandler;
+import enosphorous.chateau_romani.compatibility.BOP;
+import enosphorous.chateau_romani.compatibility.CrayTokens;
+import enosphorous.chateau_romani.compatibility.Thaumcraft;
 import enosphorous.chateau_romani.handlers.CowHandler;
 import enosphorous.chateau_romani.handlers.FireHandler;
 import enosphorous.chateau_romani.handlers.GhastHandler;
@@ -62,6 +65,10 @@ public class Chateau_Romani {
         MinecraftForge.EVENT_BUS.register(new GhastHandler());
         MinecraftForge.EVENT_BUS.register(new FireHandler());
         NetworkRegistry.instance().registerGuiHandler(this, new BreweryGuiHandler());
+        
+        BOP.getCompatiblity();
+        CrayTokens.getCompatiblity();
+        Thaumcraft.getCompatiblity();
 	}
 
 	@Mod.EventHandler

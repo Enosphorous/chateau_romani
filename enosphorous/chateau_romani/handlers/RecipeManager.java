@@ -1,6 +1,5 @@
 package enosphorous.chateau_romani.handlers;
 
-import biomesoplenty.api.Items;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
@@ -24,13 +23,7 @@ public class RecipeManager {
 		
 		//Ghastly Brew
 		GameRegistry.addShapelessRecipe(new ItemStack(CItems.ghastly_brew), new Object[]{CItems.bottled_fire, CItems.bottled_ghast, Item.netherStalkSeeds});
-		
-		/**
-		 * Biomes O' Plenty stuff.
-		 */
 
-		GameRegistry.addShapelessRecipe(new ItemStack(CItems.fermented_grain), new Object[]{new ItemStack(Items.food.get(), 1, 6), Block.mushroomBrown, Item.sugar});
-		GameRegistry.addShapelessRecipe(new ItemStack(CItems.fermented_grain), new Object[]{new ItemStack(Items.food.get(), 1, 6), Block.mushroomRed, Item.sugar});
 	
 		if (Reference.FORCE_DEBUG){
 			System.out.println("[CHATEAU ROMANI] Found and added " + Reference.RECIPE_COUNT + " recipes.");
