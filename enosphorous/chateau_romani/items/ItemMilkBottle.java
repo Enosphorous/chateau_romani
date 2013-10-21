@@ -1,6 +1,10 @@
 package enosphorous.chateau_romani.items;
 
+import java.util.List;
 import java.util.Random;
+
+import cpw.mods.fml.relauncher.Side;
+import cpw.mods.fml.relauncher.SideOnly;
 
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.entity.player.EntityPlayer;
@@ -12,10 +16,10 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.potion.Potion;
 import net.minecraft.potion.PotionEffect;
 import net.minecraft.world.World;
+import enosphorous.chateau_romani.api.EnumDrinkType;
+import enosphorous.chateau_romani.api.ICategorization;
 import enosphorous.chateau_romani.common.CItems;
 import enosphorous.chateau_romani.common.Reference;
-import enosphorous.chateau_romani.handlers.EnumDrinkType;
-import enosphorous.chateau_romani.handlers.ICategorization;
 
 public class ItemMilkBottle extends Item implements ICategorization
 {
@@ -98,5 +102,39 @@ public class ItemMilkBottle extends Item implements ICategorization
 		
 		return true;
 	}
+
+
+	@Override
+	public String getLoreLine1() {
+		
+		return "A refreshing glass of milk. . .";
+	}
+
+
+	@Override
+	public String getLoreLine2() {
+		
+		return null;
+	}
+
+
+	@Override
+	public String getLoreLine3() {
+		
+		return null;
+	}
+	
+
+    @SideOnly(Side.CLIENT)
+    @Override
+
+    /**
+     * allows items to add custom lines of information to the mouseover description
+     */
+    public void addInformation(ItemStack par1ItemStack, EntityPlayer par2EntityPlayer, List par3List, boolean par4) {
+    	
+    	par3List.add(this.getLoreLine1());
+    }
+
 
 }
